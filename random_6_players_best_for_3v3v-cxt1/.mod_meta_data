@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.3.0",
+    "display_name": "6p_3v3",
+    "short_description": "6p made specially for 3v3 matches",
+    "logos": {
+        "large_logo": "3v3.png",
+        "small_logo": "3v3.png"
+    }
+}

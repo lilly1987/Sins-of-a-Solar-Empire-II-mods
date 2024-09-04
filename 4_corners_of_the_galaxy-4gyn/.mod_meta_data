@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.0.0",
+    "display_name": "4p",
+    "short_description": "Battle over 4 star systems. Each players starts on their own cluster and trys to maintain a balance of defense and offense. Good for FFA, 2v2. Designed for Orbits.",
+    "logos": {
+        "large_logo": "4Corners.jpg",
+        "small_logo": "4Corners.jpg"
+    }
+}

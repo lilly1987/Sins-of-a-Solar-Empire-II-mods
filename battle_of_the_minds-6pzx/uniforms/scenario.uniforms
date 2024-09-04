@@ -1,0 +1,9 @@
+{
+    "scenarios": [
+        "battle_of_the_minds"
+    ],
+    "fake_server_scenarios": [
+        "public_annulus",
+        "public_ashred",
+        "public_colliding_empires"]
+}

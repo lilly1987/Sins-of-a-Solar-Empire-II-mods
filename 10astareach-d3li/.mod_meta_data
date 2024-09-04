@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+	"display_version": "1.3.0",
+	"display_name": "10 A Star Each",
+	"short_description": "10 Players, a star each and more resources in an 11th middle star",
+	"logos": {
+		"large_logo": "A Star Each.png",
+		"small_logo": "A Star Each.png"
+	}
+}

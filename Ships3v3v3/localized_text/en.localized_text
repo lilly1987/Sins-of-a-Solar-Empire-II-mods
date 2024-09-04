@@ -1,0 +1,6 @@
+{
+    "pre_load_font_chars": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+	"ships3v3v3.name": "Ship's 3v3v3",
+    "ships3v3v3.desc": "An open 4 star map with 3v3v3 and a bonus resource star",
+    "Ship's 3v3v3": "Ship's 3v3v3"
+}

@@ -1,0 +1,13 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.1.0",
+	"display_name": "Rebalance",
+    "display_name": "4p_LV426_2v2",
+	"display_name": "6p_Dead_Space_3v3",
+    "short_description": "4 Player Map 2v2 matches, The center of the map has 6 Asteroid Fields. Setup Defensive choke points to stop the enemy from infiltrating your space.",
+    "short_description": "6 Player Map 3v3 matches, The center of the map has 6 Asteroid Fields. Setup Defensive choke points to stop the enemy from infiltrating your space.",
+    "logos": {
+        "large_logo": "rebalance.png",
+        "small_logo": "rebalance.png"
+    }
+}

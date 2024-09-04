@@ -1,0 +1,8 @@
+{
+    "scenarios": [
+	"modded_titans_of_cimtar",
+	"modded_shuriken"
+    ],
+    "fake_server_scenarios": [
+    ]
+}

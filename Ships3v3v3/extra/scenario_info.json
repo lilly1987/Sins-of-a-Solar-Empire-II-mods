@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "name": "Ship's 3v3v3",
+    "description": "An open 4 star map with 3v3v3 and a bonus resource star",
+    "desired_player_slots_configuration": {
+        "player_count": 9,
+        "team_count": 3
+    },
+    "has_npcs": false
+}

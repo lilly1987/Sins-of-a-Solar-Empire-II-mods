@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.0.0",
+    "display_name": "Ship's 3v3v3",
+    "short_description": "An open 4 star map with 3v3v3 and a bonus resource star",
+    "logos": {
+        "large_logo": "logo.png",
+        "small_logo": "logo.png"
+    }
+}

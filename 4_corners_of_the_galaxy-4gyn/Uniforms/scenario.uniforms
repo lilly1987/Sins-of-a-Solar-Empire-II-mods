@@ -1,0 +1,9 @@
+{
+    "scenarios": [
+        "4_Corners_of_the_Galaxy"
+    ],
+    "fake_server_scenarios": [
+        "public_annulus",
+        "public_ashred",
+        "public_colliding_empires"]
+}

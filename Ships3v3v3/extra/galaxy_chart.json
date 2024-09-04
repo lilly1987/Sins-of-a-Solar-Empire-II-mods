@@ -1,0 +1,2758 @@
+{
+    "version": 1,
+    "skybox": "skybox_random",
+    "root_nodes": [
+        {
+            "id": 0,
+            "filling_name": "random_blue_star",
+            "position": [0.0, 0.0],
+            "rotation": 292.623444,
+            "chance_of_retrograde_orbit": 1.0,
+            "chance_of_first_planet_bonus": 0.0,
+            "chance_of_second_planet_bonus": 0.0,
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 1,
+                    "filling_name": "random_gas_giant_planet",
+                    "position": [92.158203, -100.528442],
+                    "rotation": 175.588165,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 1.0
+                },
+                {
+                    "id": 2,
+                    "filling_name": "random_gas_giant_planet",
+                    "position": [-136.466919, 8.010742],
+                    "rotation": 332.101685,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 1.0
+                },
+                {
+                    "id": 3,
+                    "filling_name": "random_gas_giant_planet",
+                    "position": [20.166807, 120.891884],
+                    "rotation": 338.302429,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 1.0
+                },
+                {
+                    "id": 4,
+                    "filling_name": "random_rich_planet",
+                    "position": [324.880249, -57.894253],
+                    "rotation": 322.376617,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 6,
+                    "filling_name": "random_rich_planet",
+                    "position": [229.946503, -328.270660],
+                    "rotation": 121.551842,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 7,
+                    "filling_name": "random_rich_planet",
+                    "position": [39.572216, -273.320251],
+                    "rotation": 295.838501,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 8,
+                    "filling_name": "random_rich_planet",
+                    "position": [-90.280029, -356.865662],
+                    "rotation": 37.479618,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 9,
+                    "filling_name": "random_rich_planet",
+                    "position": [-139.179901, -219.250229],
+                    "rotation": 85.247772,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 10,
+                    "filling_name": "random_rich_planet",
+                    "position": [-339.329468, -153.419388],
+                    "rotation": 184.771530,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 11,
+                    "filling_name": "random_rich_planet",
+                    "position": [-451.738098, -83.069756],
+                    "rotation": 145.637131,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 12,
+                    "filling_name": "random_rich_planet",
+                    "position": [-409.510834, 94.286880],
+                    "rotation": 136.370377,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 13,
+                    "filling_name": "random_rich_planet",
+                    "position": [-729.302490, -314.883301],
+                    "rotation": 246.416443,
+                    "ownership": {
+                        "npc_filling_name": "guardian"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 14,
+                    "filling_name": "random_rich_planet",
+                    "position": [-623.055542, 627.156738],
+                    "rotation": 293.488892,
+                    "ownership": {
+                        "npc_filling_name": "pranast_united"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 15,
+                    "filling_name": "random_rich_planet",
+                    "position": [238.431396, 717.443604],
+                    "rotation": 45.727318,
+                    "ownership": {
+                        "npc_filling_name": "militia"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 16,
+                    "filling_name": "random_rich_planet",
+                    "position": [569.483154, 405.201660],
+                    "rotation": 331.899780,
+                    "ownership": {
+                        "npc_filling_name": "jiskun_force"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 17,
+                    "filling_name": "random_rich_planet",
+                    "position": [585.650146, -410.960876],
+                    "rotation": 302.001587,
+                    "ownership": {
+                        "npc_filling_name": "viturak_cabal"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 18,
+                    "filling_name": "random_rich_planet",
+                    "position": [286.034485, 121.923225],
+                    "rotation": 37.351612,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 19,
+                    "filling_name": "wormhole_fixture",
+                    "position": [703.385437, -198.485367],
+                    "rotation": 196.677765,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 0.50
+                },
+                {
+                    "id": 20,
+                    "filling_name": "wormhole_fixture",
+                    "position": [117.661751, -665.206543],
+                    "rotation": 211.597122,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 6.0
+                },
+                {
+                    "id": 21,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-410.970276, -552.828308],
+                    "rotation": 326.856354,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 22,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-741.577026, 253.887283],
+                    "rotation": 248.576416,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 8.0
+                },
+                {
+                    "id": 23,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-137.609497, 623.328735],
+                    "rotation": 337.867523,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 5.0
+                },
+                {
+                    "id": 24,
+                    "filling_name": "wormhole_fixture",
+                    "position": [424.838867, 533.504639],
+                    "rotation": 213.989395,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.50,
+                    "orbit_speed_scalar": 4.0
+                },
+                {
+                    "id": 363,
+                    "filling_name": "random_rich_planet",
+                    "position": [-273.279785, 239.430725],
+                    "rotation": 136.370377,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 364,
+                    "filling_name": "random_rich_planet",
+                    "position": [-21.229004, 292.097961],
+                    "rotation": 136.370377,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 365,
+                    "filling_name": "random_rich_planet",
+                    "position": [96.976929, 315.951416],
+                    "rotation": 136.370377,
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                },
+                {
+                    "id": 5,
+                    "filling_name": "random_rich_planet",
+                    "position": [-133.491577, -642.810242],
+                    "rotation": 257.024384,
+                    "ownership": {
+                        "npc_filling_name": "aluxian_resurgence"
+                    },
+                    "original_parent_id": 0,
+                    "chance_of_retrograde_orbit": 0.30
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "filling_name": "random_star",
+            "position": [1951.015625, -1863.702271],
+            "rotation": 272.979065,
+            "chance_of_retrograde_orbit": 1.0,
+            "chance_of_first_planet_bonus": 0.0,
+            "chance_of_second_planet_bonus": 0.0,
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 63,
+                    "filling_name": "player_home_planet",
+                    "position": [2868.560547, -2647.967041],
+                    "rotation": 182.497726,
+                    "ownership": {
+                        "player_index": 0
+                    },
+                    "original_parent_id": 62,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 64,
+                    "filling_name": "player_home_planet",
+                    "position": [1426.782227, -2600.047607],
+                    "rotation": 137.315170,
+                    "ownership": {
+                        "player_index": 1
+                    },
+                    "original_parent_id": 62,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 65,
+                    "filling_name": "player_home_planet",
+                    "position": [1711.562134, -749.132507],
+                    "rotation": 290.053589,
+                    "ownership": {
+                        "player_index": 2
+                    },
+                    "original_parent_id": 62,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 66,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2372.468994, -1872.522339],
+                    "rotation": 118.216728,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 67,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2602.632568, -2152.252686],
+                    "rotation": 266.188721,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 68,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2504.250244, -2267.108154],
+                    "rotation": 225.886139,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 69,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2268.094238, -2414.981201],
+                    "rotation": 267.197876,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 70,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1992.856201, -2028.612549],
+                    "rotation": 203.726151,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 71,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1901.550293, -2344.291504],
+                    "rotation": 185.085297,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 72,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1842.901001, -2092.051270],
+                    "rotation": 349.527466,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 73,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1830.804810, -1988.131958],
+                    "rotation": 301.556091,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 74,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1557.689941, -2137.733154],
+                    "rotation": 10.199701,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 75,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1804.060547, -1898.681152],
+                    "rotation": 12.970652,
+                    "ownership": {
+                        "npc_filling_name": "pirate"
+                    },
+                    "original_parent_id": 62,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 76,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1383.229858, -1748.741089],
+                    "rotation": 80.907494,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 77,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1751.108032, -1793.302246],
+                    "rotation": 53.270149,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 78,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1578.194458, -1452.184692],
+                    "rotation": 2.405058,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 79,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1772.170166, -1525.288452],
+                    "rotation": 126.410019,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 80,
+                    "filling_name": "random_planet_weighted",
+                    "position": [1788.001465, -1250.883667],
+                    "rotation": 82.873421,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 81,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2009.149292, -1330.270020],
+                    "rotation": 335.030640,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 82,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2034.660645, -1690.268555],
+                    "rotation": 257.315735,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 83,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2188.711914, -1614.104736],
+                    "rotation": 52.069019,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 84,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2598.407959, -1528.615845],
+                    "rotation": 25.364210,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 85,
+                    "filling_name": "random_planet_weighted",
+                    "position": [2172.848145, -1803.916260],
+                    "rotation": 256.943817,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 86,
+                    "filling_name": "random_asteroid",
+                    "position": [2883.534912, -2474.515137],
+                    "rotation": 176.926270,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 87,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [2640.202881, -2514.446533],
+                    "rotation": 20.721142,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 88,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [2703.47290, -2779.459473],
+                    "rotation": 215.321655,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 89,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [1611.464722, -2577.586182],
+                    "rotation": 222.666321,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 90,
+                    "filling_name": "random_asteroid",
+                    "position": [1507.892822, -2422.852539],
+                    "rotation": 173.391861,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 91,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [1340.140503, -2491.017334],
+                    "rotation": 194.221313,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 92,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [1598.191040, -887.016174],
+                    "rotation": 68.690231,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 93,
+                    "filling_name": "random_asteroid",
+                    "position": [1736.074829, -1001.919495],
+                    "rotation": 71.129433,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 94,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [1661.004761, -1147.463379],
+                    "rotation": 345.427643,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 95,
+                    "filling_name": "random_asteroid",
+                    "position": [1921.452026, -908.464783],
+                    "rotation": 277.176025,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 97,
+                    "filling_name": "random_asteroid",
+                    "position": [2740.031494, -2419.609619],
+                    "rotation": 290.520905,
+                    "original_parent_id": 62
+                },
+                {
+                    "id": 98,
+                    "filling_name": "wormhole_fixture",
+                    "position": [1997.215210, -1974.168579],
+                    "rotation": 57.467045,
+                    "original_parent_id": 62,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 99,
+                    "filling_name": "wormhole_fixture",
+                    "position": [1884.830078, -1706.009033],
+                    "rotation": 15.092875,
+                    "original_parent_id": 62,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 419,
+                    "filling_name": "random_asteroid",
+                    "position": [1691.327515, -2510.202148],
+                    "rotation": 222.666321,
+                    "original_parent_id": 62
+                }
+            ]
+        },
+        {
+            "id": 170,
+            "filling_name": "random_star",
+            "position": [-2809.673584, -925.035645],
+            "rotation": 153.746994,
+            "chance_of_retrograde_orbit": 1.0,
+            "chance_of_first_planet_bonus": 0.0,
+            "chance_of_second_planet_bonus": 0.0,
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 171,
+                    "filling_name": "player_home_planet",
+                    "position": [-1947.336182, -1722.023193],
+                    "rotation": 223.847198,
+                    "ownership": {
+                        "player_index": 3
+                    },
+                    "original_parent_id": 170,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 172,
+                    "filling_name": "player_home_planet",
+                    "position": [-3924.369873, -1785.441406],
+                    "rotation": 238.339661,
+                    "ownership": {
+                        "player_index": 4
+                    },
+                    "original_parent_id": 170,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 173,
+                    "filling_name": "player_home_planet",
+                    "position": [-2769.129150, 200.326767],
+                    "rotation": 120.581467,
+                    "ownership": {
+                        "player_index": 5
+                    },
+                    "original_parent_id": 170,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 174,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2563.194824, -934.199219],
+                    "rotation": 351.680969,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 175,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2361.960449, -1130.521851],
+                    "rotation": 197.698624,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 176,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2384.953857, -1303.388794],
+                    "rotation": 89.875145,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 177,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2570.173340, -1265.380249],
+                    "rotation": 219.292679,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 178,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2744.312256, -1181.41040],
+                    "rotation": 144.613831,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 179,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2866.144775, -1432.811035],
+                    "rotation": 264.225128,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 180,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2941.037842, -1089.516479],
+                    "rotation": 210.308472,
+                    "ownership": {
+                        "npc_filling_name": "pirate"
+                    },
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 181,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3314.953613, -1438.552734],
+                    "rotation": 343.679962,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 182,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3112.661377, -1080.654907],
+                    "rotation": 114.747162,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 183,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3126.099854, -994.354431],
+                    "rotation": 271.970428,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 184,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3474.515625, -874.511475],
+                    "rotation": 3.384469,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 185,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3096.877197, -814.846863],
+                    "rotation": 160.009308,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 186,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3143.311279, -618.425232],
+                    "rotation": 91.746193,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 187,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-3050.705566, -551.058838],
+                    "rotation": 351.567261,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 188,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2881.092041, -489.345337],
+                    "rotation": 72.380630,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 189,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2750.470947, -415.360687],
+                    "rotation": 235.865768,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 190,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2658.956787, -608.679626],
+                    "rotation": 225.801102,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 191,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2581.885498, -648.608093],
+                    "rotation": 179.311676,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 192,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2449.147949, -728.809998],
+                    "rotation": 51.475506,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 193,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-2481.925049, -823.274109],
+                    "rotation": 126.542290,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 194,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [-1958.291260, -1536.722412],
+                    "rotation": 156.677582,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 195,
+                    "filling_name": "random_asteroid",
+                    "position": [-2234.479248, -1546.028809],
+                    "rotation": 41.906128,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 196,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [-2426.334229, -1485.839111],
+                    "rotation": 90.461281,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 197,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [-3645.563477, -1700.667725],
+                    "rotation": 54.419189,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 198,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [-3493.419678, -1776.936035],
+                    "rotation": 314.507355,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 199,
+                    "filling_name": "random_asteroid",
+                    "position": [-3660.697266, -1425.369141],
+                    "rotation": 73.090988,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 200,
+                    "filling_name": "random_asteroid",
+                    "position": [-3790.524902, -1618.529785],
+                    "rotation": 117.054588,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 201,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [-2769.572021, -201.199097],
+                    "rotation": 90.342278,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 202,
+                    "filling_name": "random_asteroid",
+                    "position": [-2888.619385, -98.366653],
+                    "rotation": 17.507448,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 203,
+                    "filling_name": "random_asteroid",
+                    "position": [-2633.816406, 6.144165],
+                    "rotation": 278.893036,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 204,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [-2672.303711, -144.020752],
+                    "rotation": 284.156830,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 205,
+                    "filling_name": "random_asteroid",
+                    "position": [-2043.320312, -1256.572998],
+                    "rotation": 197.385666,
+                    "original_parent_id": 170
+                },
+                {
+                    "id": 206,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-2722.326416, -1091.957886],
+                    "rotation": 68.976189,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 1.0
+                },
+                {
+                    "id": 207,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-2895.914307, -719.615417],
+                    "rotation": 200.336899,
+                    "original_parent_id": 170,
+                    "chance_of_retrograde_orbit": 1.0
+                }
+            ]
+        },
+        {
+            "id": 270,
+            "filling_name": "random_star",
+            "position": [306.957794, 2259.454346],
+            "rotation": 58.367653,
+            "chance_of_retrograde_orbit": 1.0,
+            "chance_of_first_planet_bonus": 0.0,
+            "chance_of_second_planet_bonus": 0.0,
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 271,
+                    "filling_name": "player_home_planet",
+                    "position": [1126.259888, 1725.063477],
+                    "rotation": 258.337585,
+                    "ownership": {
+                        "player_index": 6
+                    },
+                    "original_parent_id": 270,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 272,
+                    "filling_name": "player_home_planet",
+                    "position": [-489.844757, 1825.885010],
+                    "rotation": 349.376465,
+                    "ownership": {
+                        "player_index": 7
+                    },
+                    "original_parent_id": 270,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 273,
+                    "filling_name": "player_home_planet",
+                    "position": [327.713684, 3060.501221],
+                    "rotation": 269.687195,
+                    "ownership": {
+                        "player_index": 8
+                    },
+                    "original_parent_id": 270,
+                    "chance_of_first_planet_bonus": 1.0,
+                    "chance_of_second_planet_bonus": 1.0,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 274,
+                    "filling_name": "random_planet_weighted",
+                    "position": [836.976685, 2214.691650],
+                    "rotation": 98.331520,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 275,
+                    "filling_name": "random_planet_weighted",
+                    "position": [911.675415, 2039.776367],
+                    "rotation": 128.856049,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 276,
+                    "filling_name": "random_planet_weighted",
+                    "position": [432.862701, 2161.377197],
+                    "rotation": 32.233124,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 277,
+                    "filling_name": "random_planet_weighted",
+                    "position": [567.548340, 1796.907959],
+                    "rotation": 261.730835,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 278,
+                    "filling_name": "random_planet_weighted",
+                    "position": [428.490875, 1774.193604],
+                    "rotation": 215.529160,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 279,
+                    "filling_name": "random_planet_weighted",
+                    "position": [280.666595, 1837.859863],
+                    "rotation": 233.833801,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 280,
+                    "filling_name": "random_planet_weighted",
+                    "position": [64.825020, 1758.281738],
+                    "rotation": 96.452385,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 281,
+                    "filling_name": "random_planet_weighted",
+                    "position": [189.712463, 2117.361328],
+                    "rotation": 81.479492,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 282,
+                    "filling_name": "random_planet_weighted",
+                    "position": [188.207092, 2175.91040],
+                    "rotation": 64.232018,
+                    "ownership": {
+                        "npc_filling_name": "pirate"
+                    },
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 283,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-158.796890, 2036.552002],
+                    "rotation": 356.566284,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 284,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-23.762547, 2229.374756],
+                    "rotation": 109.627007,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 285,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-190.009720, 2441.571533],
+                    "rotation": 357.758636,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 286,
+                    "filling_name": "random_planet_weighted",
+                    "position": [99.376518, 2410.530762],
+                    "rotation": 257.077728,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 287,
+                    "filling_name": "random_planet_weighted",
+                    "position": [47.819397, 2767.123535],
+                    "rotation": 255.998505,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 288,
+                    "filling_name": "random_planet_weighted",
+                    "position": [265.888367, 2406.283936],
+                    "rotation": 270.238556,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 289,
+                    "filling_name": "random_planet_weighted",
+                    "position": [317.708405, 2499.378174],
+                    "rotation": 45.748589,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 290,
+                    "filling_name": "random_planet_weighted",
+                    "position": [396.824249, 2439.521729],
+                    "rotation": 236.110992,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 291,
+                    "filling_name": "random_planet_weighted",
+                    "position": [606.391724, 2670.481689],
+                    "rotation": 288.854919,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 292,
+                    "filling_name": "random_planet_weighted",
+                    "position": [895.988892, 2662.122803],
+                    "rotation": 172.966751,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 293,
+                    "filling_name": "random_planet_weighted",
+                    "position": [753.373474, 2338.592285],
+                    "rotation": 183.335953,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 294,
+                    "filling_name": "random_asteroid",
+                    "position": [1065.221558, 1911.367676],
+                    "rotation": 175.946121,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 295,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [862.990845, 1709.136841],
+                    "rotation": 151.580734,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 296,
+                    "filling_name": "random_asteroid",
+                    "position": [-313.236542, 1837.492432],
+                    "rotation": 294.297577,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 297,
+                    "filling_name": "random_asteroid",
+                    "position": [-316.980072, 1953.543701],
+                    "rotation": 328.054596,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 298,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [-525.583008, 1950.028076],
+                    "rotation": 49.637409,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 299,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [400.372223, 2968.263184],
+                    "rotation": 69.668587,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 300,
+                    "filling_name": "random_asteroid",
+                    "position": [239.002121, 2913.375732],
+                    "rotation": 120.810127,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 301,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [345.824432, 2876.095947],
+                    "rotation": 247.861069,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 302,
+                    "filling_name": "wormhole_fixture",
+                    "position": [550.456970, 2249.628906],
+                    "rotation": 266.620148,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 303,
+                    "filling_name": "wormhole_fixture",
+                    "position": [175.712219, 2341.569092],
+                    "rotation": 9.236206,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 1.0,
+                    "orbit_speed_scalar": 3.0
+                },
+                {
+                    "id": 383,
+                    "filling_name": "random_asteroid",
+                    "position": [227.842087, 3043.472412],
+                    "rotation": 120.810127,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 388,
+                    "filling_name": "random_asteroid",
+                    "position": [916.086060, 1857.517578],
+                    "rotation": 175.946121,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 389,
+                    "filling_name": "random_home_ice_volcanic_planet",
+                    "position": [1004.684570, 1710.269409],
+                    "rotation": 175.946121,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 399,
+                    "filling_name": "random_planet_weighted_near_home_planet",
+                    "position": [-433.416107, 2102.385010],
+                    "rotation": 328.054596,
+                    "original_parent_id": 270
+                },
+                {
+                    "id": 402,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-84.676399, 2610.857666],
+                    "rotation": 357.758636,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                },
+                {
+                    "id": 403,
+                    "filling_name": "random_planet_weighted",
+                    "position": [-84.676399, 2610.857666],
+                    "rotation": 357.758636,
+                    "original_parent_id": 270,
+                    "chance_of_retrograde_orbit": 0.20
+                }
+            ]
+        },
+        {
+            "id": 452,
+            "filling_name": "random_yellow_star",
+            "position": [-1207.644409, -5393.893555],
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 512,
+                    "filling_name": "random_volcanic_planet",
+                    "position": [-3719.001221, 2017.513672],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 513,
+                    "filling_name": "random_rich_planet",
+                    "position": [-3617.760498, 1949.331299],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 514,
+                    "filling_name": "random_ferrous_planet",
+                    "position": [-3764.456055, 2188.314209],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 515,
+                    "filling_name": "random_rich_planet",
+                    "position": [-3632.912109, 2166.964111],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 516,
+                    "filling_name": "random_asteroid_point_line_cluster_weighted",
+                    "position": [-3481.021240, 2085.152344],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 517,
+                    "filling_name": "random_rich_planet",
+                    "position": [-3809.911133, 2071.233154],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 518,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-3446.901611, 1994.977295],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 519,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-3881.505859, 2203.586914],
+                    "original_parent_id": 511,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 532,
+                    "filling_name": "random_crystalline_planet",
+                    "position": [5332.913574, 1491.027222],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 533,
+                    "filling_name": "random_rich_planet",
+                    "position": [5438.873535, 1495.166260],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 534,
+                    "filling_name": "random_ice_planet",
+                    "position": [5307.251465, 1653.278564],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 535,
+                    "filling_name": "random_rich_planet",
+                    "position": [5408.428711, 1657.932861],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 536,
+                    "filling_name": "random_asteroid_point_line_cluster_weighted",
+                    "position": [5512.548828, 1588.709106],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 537,
+                    "filling_name": "random_rich_planet",
+                    "position": [5278.277832, 1548.146240],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 538,
+                    "filling_name": "wormhole_fixture",
+                    "position": [5599.066406, 1488.482544],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 539,
+                    "filling_name": "wormhole_fixture",
+                    "position": [5164.461914, 1697.092529],
+                    "original_parent_id": 540,
+                    "chance_of_loot": 0.0
+                }
+            ]
+        },
+        {
+            "id": 511,
+            "filling_name": "random_yellow_star",
+            "position": [-3657.399658, 2094.428223],
+            "chance_of_loot": 0.0
+        },
+        {
+            "id": 540,
+            "filling_name": "random_yellow_star",
+            "position": [5388.568359, 1587.933838],
+            "chance_of_loot": 0.0,
+            "child_nodes": [
+                {
+                    "id": 468,
+                    "filling_name": "random_swamp_planet",
+                    "position": [-1259.315430, -5474.119629],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 462,
+                    "filling_name": "random_rich_planet",
+                    "position": [-1172.319824, -5494.731445],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 469,
+                    "filling_name": "random_greenhouse_planet",
+                    "position": [-1311.720215, -5300.953125],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 464,
+                    "filling_name": "random_rich_planet",
+                    "position": [-1137.543701, -5283.476074],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 458,
+                    "filling_name": "random_asteroid_point_line_cluster_weighted",
+                    "position": [-1045.258667, -5393.991699],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 463,
+                    "filling_name": "random_rich_planet",
+                    "position": [-1360.304565, -5445.842285],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 503,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-1018.208801, -5516.281738],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                },
+                {
+                    "id": 504,
+                    "filling_name": "wormhole_fixture",
+                    "position": [-1408.234131, -5293.040039],
+                    "original_parent_id": 452,
+                    "chance_of_loot": 0.0
+                }
+            ]
+        }
+    ],
+    "phase_lanes": [
+        {
+            "id": 26,
+            "node_a": 0,
+            "node_b": 18
+        },
+        {
+            "id": 28,
+            "node_a": 1,
+            "node_b": 7
+        },
+        {
+            "id": 29,
+            "node_a": 1,
+            "node_b": 6
+        },
+        {
+            "id": 30,
+            "node_a": 2,
+            "node_b": 9
+        },
+        {
+            "id": 31,
+            "node_a": 2,
+            "node_b": 10
+        },
+        {
+            "id": 33,
+            "node_a": 3,
+            "node_b": 16
+        },
+        {
+            "id": 34,
+            "node_a": 3,
+            "node_b": 18
+        },
+        {
+            "id": 40,
+            "node_a": 4,
+            "node_b": 18
+        },
+        {
+            "id": 41,
+            "node_a": 4,
+            "node_b": 6
+        },
+        {
+            "id": 43,
+            "node_a": 6,
+            "node_b": 7
+        },
+        {
+            "id": 44,
+            "node_a": 6,
+            "node_b": 20
+        },
+        {
+            "id": 45,
+            "node_a": 7,
+            "node_b": 8
+        },
+        {
+            "id": 46,
+            "node_a": 8,
+            "node_b": 9
+        },
+        {
+            "id": 47,
+            "node_a": 9,
+            "node_b": 10
+        },
+        {
+            "id": 48,
+            "node_a": 10,
+            "node_b": 11
+        },
+        {
+            "id": 49,
+            "node_a": 11,
+            "node_b": 12
+        },
+        {
+            "id": 50,
+            "node_a": 12,
+            "node_b": 13
+        },
+        {
+            "id": 59,
+            "node_a": 21,
+            "node_b": 10
+        },
+        {
+            "id": 60,
+            "node_a": 19,
+            "node_b": 4
+        },
+        {
+            "id": 61,
+            "node_a": 22,
+            "node_b": 12
+        },
+        {
+            "id": 100,
+            "node_a": 62,
+            "node_b": 75
+        },
+        {
+            "id": 101,
+            "node_a": 62,
+            "node_b": 77
+        },
+        {
+            "id": 102,
+            "node_a": 62,
+            "node_b": 85
+        },
+        {
+            "id": 103,
+            "node_a": 62,
+            "node_b": 68
+        },
+        {
+            "id": 105,
+            "node_a": 63,
+            "node_b": 86
+        },
+        {
+            "id": 108,
+            "node_a": 64,
+            "node_b": 89
+        },
+        {
+            "id": 113,
+            "node_a": 65,
+            "node_b": 95
+        },
+        {
+            "id": 115,
+            "node_a": 66,
+            "node_b": 85
+        },
+        {
+            "id": 116,
+            "node_a": 66,
+            "node_b": 83
+        },
+        {
+            "id": 117,
+            "node_a": 66,
+            "node_b": 67
+        },
+        {
+            "id": 118,
+            "node_a": 66,
+            "node_b": 84
+        },
+        {
+            "id": 119,
+            "node_a": 67,
+            "node_b": 68
+        },
+        {
+            "id": 120,
+            "node_a": 67,
+            "node_b": 86
+        },
+        {
+            "id": 121,
+            "node_a": 68,
+            "node_b": 69
+        },
+        {
+            "id": 122,
+            "node_a": 68,
+            "node_b": 87
+        },
+        {
+            "id": 124,
+            "node_a": 69,
+            "node_b": 70
+        },
+        {
+            "id": 126,
+            "node_a": 69,
+            "node_b": 87
+        },
+        {
+            "id": 128,
+            "node_a": 70,
+            "node_b": 98
+        },
+        {
+            "id": 129,
+            "node_a": 70,
+            "node_b": 71
+        },
+        {
+            "id": 130,
+            "node_a": 71,
+            "node_b": 72
+        },
+        {
+            "id": 131,
+            "node_a": 71,
+            "node_b": 74
+        },
+        {
+            "id": 133,
+            "node_a": 72,
+            "node_b": 73
+        },
+        {
+            "id": 134,
+            "node_a": 72,
+            "node_b": 74
+        },
+        {
+            "id": 135,
+            "node_a": 74,
+            "node_b": 76
+        },
+        {
+            "id": 136,
+            "node_a": 74,
+            "node_b": 75
+        },
+        {
+            "id": 137,
+            "node_a": 74,
+            "node_b": 91
+        },
+        {
+            "id": 138,
+            "node_a": 75,
+            "node_b": 76
+        },
+        {
+            "id": 139,
+            "node_a": 76,
+            "node_b": 77
+        },
+        {
+            "id": 140,
+            "node_a": 76,
+            "node_b": 79
+        },
+        {
+            "id": 143,
+            "node_a": 77,
+            "node_b": 79
+        },
+        {
+            "id": 147,
+            "node_a": 79,
+            "node_b": 99
+        },
+        {
+            "id": 148,
+            "node_a": 79,
+            "node_b": 80
+        },
+        {
+            "id": 149,
+            "node_a": 79,
+            "node_b": 83
+        },
+        {
+            "id": 150,
+            "node_a": 79,
+            "node_b": 81
+        },
+        {
+            "id": 152,
+            "node_a": 80,
+            "node_b": 81
+        },
+        {
+            "id": 153,
+            "node_a": 80,
+            "node_b": 94
+        },
+        {
+            "id": 154,
+            "node_a": 81,
+            "node_b": 95
+        },
+        {
+            "id": 155,
+            "node_a": 81,
+            "node_b": 83
+        },
+        {
+            "id": 156,
+            "node_a": 82,
+            "node_b": 99
+        },
+        {
+            "id": 157,
+            "node_a": 82,
+            "node_b": 83
+        },
+        {
+            "id": 158,
+            "node_a": 83,
+            "node_b": 85
+        },
+        {
+            "id": 159,
+            "node_a": 83,
+            "node_b": 84
+        },
+        {
+            "id": 161,
+            "node_a": 86,
+            "node_b": 97
+        },
+        {
+            "id": 162,
+            "node_a": 87,
+            "node_b": 88
+        },
+        {
+            "id": 164,
+            "node_a": 90,
+            "node_b": 91
+        },
+        {
+            "id": 165,
+            "node_a": 92,
+            "node_b": 93
+        },
+        {
+            "id": 166,
+            "node_a": 93,
+            "node_b": 94
+        },
+        {
+            "id": 208,
+            "node_a": 170,
+            "node_b": 180
+        },
+        {
+            "id": 209,
+            "node_a": 170,
+            "node_b": 206
+        },
+        {
+            "id": 210,
+            "node_a": 170,
+            "node_b": 207
+        },
+        {
+            "id": 211,
+            "node_a": 170,
+            "node_b": 174
+        },
+        {
+            "id": 212,
+            "node_a": 170,
+            "node_b": 185
+        },
+        {
+            "id": 213,
+            "node_a": 170,
+            "node_b": 183
+        },
+        {
+            "id": 214,
+            "node_a": 170,
+            "node_b": 193
+        },
+        {
+            "id": 215,
+            "node_a": 170,
+            "node_b": 190
+        },
+        {
+            "id": 216,
+            "node_a": 171,
+            "node_b": 195
+        },
+        {
+            "id": 218,
+            "node_a": 171,
+            "node_b": 194
+        },
+        {
+            "id": 219,
+            "node_a": 172,
+            "node_b": 198
+        },
+        {
+            "id": 220,
+            "node_a": 172,
+            "node_b": 197
+        },
+        {
+            "id": 221,
+            "node_a": 173,
+            "node_b": 203
+        },
+        {
+            "id": 222,
+            "node_a": 173,
+            "node_b": 202
+        },
+        {
+            "id": 224,
+            "node_a": 174,
+            "node_b": 193
+        },
+        {
+            "id": 225,
+            "node_a": 174,
+            "node_b": 175
+        },
+        {
+            "id": 226,
+            "node_a": 175,
+            "node_b": 176
+        },
+        {
+            "id": 227,
+            "node_a": 175,
+            "node_b": 193
+        },
+        {
+            "id": 228,
+            "node_a": 176,
+            "node_b": 177
+        },
+        {
+            "id": 229,
+            "node_a": 177,
+            "node_b": 178
+        },
+        {
+            "id": 230,
+            "node_a": 177,
+            "node_b": 206
+        },
+        {
+            "id": 231,
+            "node_a": 177,
+            "node_b": 179
+        },
+        {
+            "id": 232,
+            "node_a": 178,
+            "node_b": 206
+        },
+        {
+            "id": 233,
+            "node_a": 178,
+            "node_b": 179
+        },
+        {
+            "id": 234,
+            "node_a": 179,
+            "node_b": 180
+        },
+        {
+            "id": 235,
+            "node_a": 179,
+            "node_b": 182
+        },
+        {
+            "id": 236,
+            "node_a": 179,
+            "node_b": 181
+        },
+        {
+            "id": 237,
+            "node_a": 180,
+            "node_b": 182
+        },
+        {
+            "id": 238,
+            "node_a": 181,
+            "node_b": 198
+        },
+        {
+            "id": 239,
+            "node_a": 181,
+            "node_b": 182
+        },
+        {
+            "id": 240,
+            "node_a": 181,
+            "node_b": 199
+        },
+        {
+            "id": 241,
+            "node_a": 181,
+            "node_b": 184
+        },
+        {
+            "id": 242,
+            "node_a": 182,
+            "node_b": 183
+        },
+        {
+            "id": 243,
+            "node_a": 183,
+            "node_b": 184
+        },
+        {
+            "id": 245,
+            "node_a": 184,
+            "node_b": 185
+        },
+        {
+            "id": 246,
+            "node_a": 184,
+            "node_b": 186
+        },
+        {
+            "id": 247,
+            "node_a": 184,
+            "node_b": 199
+        },
+        {
+            "id": 248,
+            "node_a": 185,
+            "node_b": 186
+        },
+        {
+            "id": 249,
+            "node_a": 186,
+            "node_b": 187
+        },
+        {
+            "id": 251,
+            "node_a": 187,
+            "node_b": 188
+        },
+        {
+            "id": 252,
+            "node_a": 187,
+            "node_b": 207
+        },
+        {
+            "id": 253,
+            "node_a": 187,
+            "node_b": 202
+        },
+        {
+            "id": 254,
+            "node_a": 188,
+            "node_b": 189
+        },
+        {
+            "id": 255,
+            "node_a": 188,
+            "node_b": 207
+        },
+        {
+            "id": 256,
+            "node_a": 189,
+            "node_b": 190
+        },
+        {
+            "id": 257,
+            "node_a": 189,
+            "node_b": 202
+        },
+        {
+            "id": 258,
+            "node_a": 190,
+            "node_b": 191
+        },
+        {
+            "id": 259,
+            "node_a": 191,
+            "node_b": 192
+        },
+        {
+            "id": 260,
+            "node_a": 192,
+            "node_b": 193
+        },
+        {
+            "id": 261,
+            "node_a": 194,
+            "node_b": 205
+        },
+        {
+            "id": 262,
+            "node_a": 195,
+            "node_b": 196
+        },
+        {
+            "id": 264,
+            "node_a": 198,
+            "node_b": 199
+        },
+        {
+            "id": 265,
+            "node_a": 199,
+            "node_b": 200
+        },
+        {
+            "id": 267,
+            "node_a": 201,
+            "node_b": 202
+        },
+        {
+            "id": 268,
+            "node_a": 203,
+            "node_b": 204
+        },
+        {
+            "id": 304,
+            "node_a": 270,
+            "node_b": 282
+        },
+        {
+            "id": 305,
+            "node_a": 270,
+            "node_b": 288
+        },
+        {
+            "id": 306,
+            "node_a": 270,
+            "node_b": 303
+        },
+        {
+            "id": 307,
+            "node_a": 270,
+            "node_b": 276
+        },
+        {
+            "id": 308,
+            "node_a": 270,
+            "node_b": 290
+        },
+        {
+            "id": 309,
+            "node_a": 270,
+            "node_b": 302
+        },
+        {
+            "id": 310,
+            "node_a": 270,
+            "node_b": 284
+        },
+        {
+            "id": 311,
+            "node_a": 270,
+            "node_b": 279
+        },
+        {
+            "id": 312,
+            "node_a": 271,
+            "node_b": 294
+        },
+        {
+            "id": 315,
+            "node_a": 274,
+            "node_b": 293
+        },
+        {
+            "id": 316,
+            "node_a": 274,
+            "node_b": 275
+        },
+        {
+            "id": 317,
+            "node_a": 274,
+            "node_b": 302
+        },
+        {
+            "id": 318,
+            "node_a": 274,
+            "node_b": 292
+        },
+        {
+            "id": 319,
+            "node_a": 275,
+            "node_b": 277
+        },
+        {
+            "id": 320,
+            "node_a": 275,
+            "node_b": 294
+        },
+        {
+            "id": 321,
+            "node_a": 275,
+            "node_b": 276
+        },
+        {
+            "id": 323,
+            "node_a": 276,
+            "node_b": 277
+        },
+        {
+            "id": 324,
+            "node_a": 277,
+            "node_b": 278
+        },
+        {
+            "id": 325,
+            "node_a": 277,
+            "node_b": 295
+        },
+        {
+            "id": 326,
+            "node_a": 278,
+            "node_b": 279
+        },
+        {
+            "id": 328,
+            "node_a": 279,
+            "node_b": 280
+        },
+        {
+            "id": 329,
+            "node_a": 280,
+            "node_b": 281
+        },
+        {
+            "id": 330,
+            "node_a": 280,
+            "node_b": 283
+        },
+        {
+            "id": 332,
+            "node_a": 280,
+            "node_b": 296
+        },
+        {
+            "id": 333,
+            "node_a": 281,
+            "node_b": 282
+        },
+        {
+            "id": 334,
+            "node_a": 282,
+            "node_b": 283
+        },
+        {
+            "id": 335,
+            "node_a": 283,
+            "node_b": 284
+        },
+        {
+            "id": 337,
+            "node_a": 284,
+            "node_b": 285
+        },
+        {
+            "id": 339,
+            "node_a": 285,
+            "node_b": 286
+        },
+        {
+            "id": 343,
+            "node_a": 286,
+            "node_b": 303
+        },
+        {
+            "id": 344,
+            "node_a": 286,
+            "node_b": 287
+        },
+        {
+            "id": 345,
+            "node_a": 287,
+            "node_b": 289
+        },
+        {
+            "id": 346,
+            "node_a": 287,
+            "node_b": 300
+        },
+        {
+            "id": 347,
+            "node_a": 287,
+            "node_b": 291
+        },
+        {
+            "id": 349,
+            "node_a": 288,
+            "node_b": 289
+        },
+        {
+            "id": 350,
+            "node_a": 289,
+            "node_b": 290
+        },
+        {
+            "id": 351,
+            "node_a": 290,
+            "node_b": 291
+        },
+        {
+            "id": 352,
+            "node_a": 291,
+            "node_b": 292
+        },
+        {
+            "id": 353,
+            "node_a": 291,
+            "node_b": 293
+        },
+        {
+            "id": 356,
+            "node_a": 293,
+            "node_b": 302
+        },
+        {
+            "id": 357,
+            "node_a": 294,
+            "node_b": 295
+        },
+        {
+            "id": 360,
+            "node_a": 301,
+            "node_b": 300
+        },
+        {
+            "id": 361,
+            "node_a": 301,
+            "node_b": 291
+        },
+        {
+            "id": 362,
+            "node_a": 299,
+            "node_b": 273
+        },
+        {
+            "id": 366,
+            "node_a": 17,
+            "node_b": 6
+        },
+        {
+            "id": 367,
+            "node_a": 23,
+            "node_b": 364
+        },
+        {
+            "id": 368,
+            "node_a": 15,
+            "node_b": 365
+        },
+        {
+            "id": 369,
+            "node_a": 24,
+            "node_b": 365
+        },
+        {
+            "id": 370,
+            "node_a": 22,
+            "node_b": 363
+        },
+        {
+            "id": 371,
+            "node_a": 5,
+            "node_b": 8
+        },
+        {
+            "id": 372,
+            "node_a": 363,
+            "node_b": 364
+        },
+        {
+            "id": 373,
+            "node_a": 14,
+            "node_b": 363
+        },
+        {
+            "id": 374,
+            "node_a": 364,
+            "node_b": 3
+        },
+        {
+            "id": 375,
+            "node_a": 3,
+            "node_b": 0
+        },
+        {
+            "id": 376,
+            "node_a": 2,
+            "node_b": 0
+        },
+        {
+            "id": 377,
+            "node_a": 1,
+            "node_b": 0
+        },
+        {
+            "id": 378,
+            "node_a": 365,
+            "node_b": 3
+        },
+        {
+            "id": 379,
+            "node_a": 18,
+            "node_b": 365
+        },
+        {
+            "id": 380,
+            "node_a": 365,
+            "node_b": 364
+        },
+        {
+            "id": 381,
+            "node_a": 363,
+            "node_b": 12
+        },
+        {
+            "id": 382,
+            "node_a": 299,
+            "node_b": 301
+        },
+        {
+            "id": 384,
+            "node_a": 383,
+            "node_b": 273
+        },
+        {
+            "id": 385,
+            "node_a": 383,
+            "node_b": 300
+        },
+        {
+            "id": 386,
+            "node_a": 299,
+            "node_b": 300
+        },
+        {
+            "id": 387,
+            "node_a": 299,
+            "node_b": 383
+        },
+        {
+            "id": 390,
+            "node_a": 389,
+            "node_b": 295
+        },
+        {
+            "id": 391,
+            "node_a": 389,
+            "node_b": 271
+        },
+        {
+            "id": 392,
+            "node_a": 389,
+            "node_b": 388
+        },
+        {
+            "id": 395,
+            "node_a": 294,
+            "node_b": 388
+        },
+        {
+            "id": 396,
+            "node_a": 295,
+            "node_b": 388
+        },
+        {
+            "id": 397,
+            "node_a": 298,
+            "node_b": 272
+        },
+        {
+            "id": 398,
+            "node_a": 296,
+            "node_b": 272
+        },
+        {
+            "id": 400,
+            "node_a": 399,
+            "node_b": 298
+        },
+        {
+            "id": 401,
+            "node_a": 399,
+            "node_b": 283
+        },
+        {
+            "id": 404,
+            "node_a": 402,
+            "node_b": 285
+        },
+        {
+            "id": 405,
+            "node_a": 402,
+            "node_b": 287
+        },
+        {
+            "id": 406,
+            "node_a": 297,
+            "node_b": 399
+        },
+        {
+            "id": 407,
+            "node_a": 296,
+            "node_b": 297
+        },
+        {
+            "id": 408,
+            "node_a": 297,
+            "node_b": 298
+        },
+        {
+            "id": 409,
+            "node_a": 78,
+            "node_b": 79
+        },
+        {
+            "id": 410,
+            "node_a": 65,
+            "node_b": 92
+        },
+        {
+            "id": 411,
+            "node_a": 94,
+            "node_b": 95
+        },
+        {
+            "id": 412,
+            "node_a": 95,
+            "node_b": 93
+        },
+        {
+            "id": 413,
+            "node_a": 88,
+            "node_b": 63
+        },
+        {
+            "id": 414,
+            "node_a": 97,
+            "node_b": 87
+        },
+        {
+            "id": 415,
+            "node_a": 86,
+            "node_b": 87
+        },
+        {
+            "id": 416,
+            "node_a": 91,
+            "node_b": 64
+        },
+        {
+            "id": 417,
+            "node_a": 90,
+            "node_b": 71
+        },
+        {
+            "id": 418,
+            "node_a": 89,
+            "node_b": 90
+        },
+        {
+            "id": 420,
+            "node_a": 419,
+            "node_b": 89
+        },
+        {
+            "id": 421,
+            "node_a": 90,
+            "node_b": 74
+        },
+        {
+            "id": 422,
+            "node_a": 419,
+            "node_b": 71
+        },
+        {
+            "id": 423,
+            "node_a": 419,
+            "node_b": 90
+        },
+        {
+            "id": 424,
+            "node_a": 200,
+            "node_b": 172
+        },
+        {
+            "id": 425,
+            "node_a": 196,
+            "node_b": 176
+        },
+        {
+            "id": 426,
+            "node_a": 205,
+            "node_b": 176
+        },
+        {
+            "id": 427,
+            "node_a": 205,
+            "node_b": 175
+        },
+        {
+            "id": 428,
+            "node_a": 195,
+            "node_b": 194
+        },
+        {
+            "id": 429,
+            "node_a": 195,
+            "node_b": 205
+        },
+        {
+            "id": 430,
+            "node_a": 205,
+            "node_b": 196
+        },
+        {
+            "id": 431,
+            "node_a": 201,
+            "node_b": 173
+        },
+        {
+            "id": 432,
+            "node_a": 201,
+            "node_b": 204
+        },
+        {
+            "id": 434,
+            "node_a": 62,
+            "node_b": 270,
+            "type": "star"
+        },
+        {
+            "id": 435,
+            "node_a": 270,
+            "node_b": 170,
+            "type": "star"
+        },
+        {
+            "id": 439,
+            "node_a": 206,
+            "node_b": 21,
+            "type": "wormhole"
+        },
+        {
+            "id": 442,
+            "node_a": 197,
+            "node_b": 199
+        },
+        {
+            "id": 443,
+            "node_a": 200,
+            "node_b": 197
+        },
+        {
+            "id": 449,
+            "node_a": 170,
+            "node_b": 62,
+            "type": "star"
+        },
+        {
+            "id": 450,
+            "node_a": 99,
+            "node_b": 19,
+            "type": "wormhole"
+        },
+        {
+            "id": 451,
+            "node_a": 23,
+            "node_b": 302,
+            "type": "wormhole"
+        },
+        {
+            "id": 520,
+            "node_a": 515,
+            "node_b": 514
+        },
+        {
+            "id": 521,
+            "node_a": 517,
+            "node_b": 514
+        },
+        {
+            "id": 522,
+            "node_a": 517,
+            "node_b": 512
+        },
+        {
+            "id": 523,
+            "node_a": 512,
+            "node_b": 513
+        },
+        {
+            "id": 524,
+            "node_a": 513,
+            "node_b": 516
+        },
+        {
+            "id": 525,
+            "node_a": 516,
+            "node_b": 515
+        },
+        {
+            "id": 526,
+            "node_a": 518,
+            "node_b": 511
+        },
+        {
+            "id": 527,
+            "node_a": 511,
+            "node_b": 519
+        },
+        {
+            "id": 528,
+            "node_a": 515,
+            "node_b": 511
+        },
+        {
+            "id": 529,
+            "node_a": 511,
+            "node_b": 514
+        },
+        {
+            "id": 530,
+            "node_a": 511,
+            "node_b": 517
+        },
+        {
+            "id": 531,
+            "node_a": 511,
+            "node_b": 513
+        },
+        {
+            "id": 541,
+            "node_a": 535,
+            "node_b": 534
+        },
+        {
+            "id": 542,
+            "node_a": 537,
+            "node_b": 534
+        },
+        {
+            "id": 543,
+            "node_a": 537,
+            "node_b": 532
+        },
+        {
+            "id": 544,
+            "node_a": 532,
+            "node_b": 533
+        },
+        {
+            "id": 545,
+            "node_a": 533,
+            "node_b": 536
+        },
+        {
+            "id": 546,
+            "node_a": 536,
+            "node_b": 535
+        },
+        {
+            "id": 547,
+            "node_a": 538,
+            "node_b": 540
+        },
+        {
+            "id": 548,
+            "node_a": 540,
+            "node_b": 539
+        },
+        {
+            "id": 549,
+            "node_a": 535,
+            "node_b": 540
+        },
+        {
+            "id": 550,
+            "node_a": 540,
+            "node_b": 534
+        },
+        {
+            "id": 551,
+            "node_a": 540,
+            "node_b": 537
+        },
+        {
+            "id": 552,
+            "node_a": 540,
+            "node_b": 533
+        },
+        {
+            "id": 553,
+            "node_a": 538,
+            "node_b": 98,
+            "type": "wormhole"
+        },
+        {
+            "id": 554,
+            "node_a": 539,
+            "node_b": 24,
+            "type": "wormhole"
+        },
+        {
+            "id": 555,
+            "node_a": 303,
+            "node_b": 518,
+            "type": "wormhole"
+        },
+        {
+            "id": 556,
+            "node_a": 519,
+            "node_b": 22,
+            "type": "wormhole"
+        },
+        {
+            "id": 559,
+            "node_a": 462,
+            "node_b": 468
+        },
+        {
+            "id": 560,
+            "node_a": 468,
+            "node_b": 463
+        },
+        {
+            "id": 561,
+            "node_a": 463,
+            "node_b": 469
+        },
+        {
+            "id": 562,
+            "node_a": 469,
+            "node_b": 464
+        },
+        {
+            "id": 563,
+            "node_a": 464,
+            "node_b": 458
+        },
+        {
+            "id": 564,
+            "node_a": 458,
+            "node_b": 462
+        },
+        {
+            "id": 565,
+            "node_a": 462,
+            "node_b": 452
+        },
+        {
+            "id": 566,
+            "node_a": 469,
+            "node_b": 452
+        },
+        {
+            "id": 567,
+            "node_a": 504,
+            "node_b": 207,
+            "type": "wormhole"
+        },
+        {
+            "id": 568,
+            "node_a": 503,
+            "node_b": 20,
+            "type": "wormhole"
+        }
+    ]
+}

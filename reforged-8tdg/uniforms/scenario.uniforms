@@ -1,0 +1,12 @@
+{
+    "scenarios": [
+        "random_4_player_reforged",
+        "random_5_player_reforged",
+        "random_6_player_reforged",
+        "random_7_player_reforged",
+        "random_8_player_reforged",
+        "random_9_player_reforged",
+        "random_10_player_reforged"
+    ],
+    "fake_server_scenarios": []
+}

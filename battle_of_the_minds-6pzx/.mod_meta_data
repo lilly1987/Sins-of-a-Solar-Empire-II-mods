@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.0.0",
+    "display_name": "Battle of the Minds",
+    "short_description": "10 player map with unique twists and mechanics. Build for FFA or 2x2x2x2x2. Use orbits.",
+    "logos": {
+        "large_logo": "galaxy.png",
+        "small_logo": "galaxy.png"
+    }
+}

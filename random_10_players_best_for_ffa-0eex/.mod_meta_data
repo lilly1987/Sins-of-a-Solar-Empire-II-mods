@@ -1,0 +1,10 @@
+{
+    "compatibility_version": 2,
+    "display_version": "1.3.0",
+    "display_name": "10p_FFA",
+    "short_description": "10p made specially for FFA matches",
+    "logos": {
+        "large_logo": "FFA.png",
+        "small_logo": "FFA.png"
+    }
+}

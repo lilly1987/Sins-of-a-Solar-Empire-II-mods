@@ -1,0 +1,7 @@
+{
+    "scenarios": [
+        "4_player_lv426",
+		"6_player_deadspace"
+    ],
+    "fake_server_scenarios": []
+} 

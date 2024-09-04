@@ -1,0 +1,10 @@
+{
+    "scenarios": [
+        
+		"twin_empires"
+    ],
+    "fake_server_scenarios": [
+        "public_annulus",
+        "public_ashred",
+        "public_colliding_empires"]
+}

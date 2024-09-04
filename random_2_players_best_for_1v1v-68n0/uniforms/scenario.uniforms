@@ -1,0 +1,10 @@
+{
+    "scenarios": [
+        
+		"random_2_players_best_for_1v1"
+    ],
+    "fake_server_scenarios": [
+        "public_annulus",
+        "public_ashred",
+        "public_colliding_empires"]
+}
