@@ -1,0 +1,83 @@
+{
+    "skybox": "skybox_random",
+    "player_home_planet":
+    {
+        "filling_name": "player_home_planet",
+        "solar_system_radius_range": [1.0, 1.1],
+        "moon_filling_name": "random_10_player_home_planet_moons"
+    },
+    "recommended_team_count": 1,
+    "solar_systems": [
+    {
+        "planet_phase_lane_chance": 0.75,
+        "planet_phase_lane_max_distance_radius_scalar": 0.75,
+        "radius": 1000,
+        "max_player_count": 10,
+        "artifact_count": 10,
+        "star":
+        {
+            "filling_name": "random_star"
+        },
+        "planet_ranges": [
+        {
+            "count": [12, 12],
+            "planet":
+            {
+                "filling_name": "random_poor_planet",
+                "solar_system_radius_range": [0.7, 1.0],
+                "chance_of_retrograde_orbit": 0.1
+            }
+        },
+        {
+            "count": [10, 10],
+            "planet":
+            {
+                "filling_name": "random_fair_planet",
+                "solar_system_radius_range": [0.5, 0.7],
+                "chance_of_retrograde_orbit": 0.1,
+                "moon_filling_name": "default_non_home_planet_moons"
+            }
+        },
+        {
+            "count": [8, 8],
+            "planet":
+            {
+                "filling_name": "random_rich_planet",
+                "filling_name_near_home_planet": "random_rich_planet_near_home_planet",
+                "solar_system_radius_range": [0.3, 0.5],
+                "chance_of_retrograde_orbit": 0.1,
+                "moon_filling_name": "default_non_home_planet_moons"
+            }
+        }],
+        "npcs": [
+        {
+            "npc_filling_name": "pirate",
+            "planet":
+            {
+                "filling_name": "player_home_planet",
+                "solar_system_radius_range": [0.1, 0.1]
+            }
+        },
+        {
+            "npc_filling_name": "aluxian_resurgence",
+            "planet": 
+            {
+                "filling_name": "player_home_planet",
+                "solar_system_radius_range": [0.3, 0.5],
+                "chance_of_retrograde_orbit": 1.0,
+                "chance_of_first_planet_bonus": 0.80,
+                "chance_of_second_planet_bonus": 0.30,
+                "orbit_speed_scalar": 4.0
+            }
+        },
+        {
+            "count": 3,
+            "npc_filling_type": "friendly_faction",
+            "planet":
+            {
+                "filling_name": "player_home_planet",
+                "solar_system_radius_range": [0.3, 0.3]
+            }
+        }]
+    }]
+}

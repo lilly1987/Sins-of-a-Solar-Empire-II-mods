@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "name": "battle_of_the_minds.name",
+    "description": "battle_of_the_minds.desc",
+    "desired_player_slots_configuration": {
+        "player_count": 10,
+        "team_count": 0
+    },
+    "planet_counts": [200, 200],
+    "has_npcs": false
+}

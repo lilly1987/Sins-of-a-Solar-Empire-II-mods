@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "name": ":my5",
+    "description": ":An empty scenario",
+    "desired_player_slots_configuration": {
+        "player_count": 10,
+        "team_count": 10
+    },
+    "planet_counts": [60, 60],
+    "star_counts": [1,1],
+    "has_wormholes": false,
+    "has_npcs": true
+}

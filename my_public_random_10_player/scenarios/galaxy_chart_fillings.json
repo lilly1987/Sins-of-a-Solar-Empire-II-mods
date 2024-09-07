@@ -1,0 +1,96 @@
+{
+    "version": 1,
+    "moon_fillings": [
+        {
+            "name": "random_10_player_home_planet_moons",
+            "filling": {
+                "moons": [
+                    {
+                        "filling_name": "random_asteroid",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": false,                        
+                        "planet_offset": [50.0, 50.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "filling_name": "random_asteroid_line_cluster",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": false,                        
+                        "planet_offset": [50.0, 50.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "filling_name": "random_asteroid_line_cluster",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": false,                        
+                        "planet_offset": [150.0, 150.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "filling_name": "random_home_ice_volcanic_planet",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "filling_name": "random_fair_planet",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": true,                       
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    },
+                    {
+                        "filling_name": "random_rich_planet_near_home_planet",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 1,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

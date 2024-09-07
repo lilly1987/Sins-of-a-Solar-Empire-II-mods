@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "moon_fillings": [
+        {
+            "name": "random_10_player_home_planet_moons",
+            "filling": {
+                "moons": []
+            }
+        }
+    ]
+}
