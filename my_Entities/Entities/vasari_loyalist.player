@@ -970,6 +970,7 @@
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
+        
         "vasari_nano_antimatter_restore",
         "vasari_nano_repair_kit",
         "vasari_nano_swarm",
