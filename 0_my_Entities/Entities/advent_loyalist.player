@@ -1,9 +1,9 @@
 {
     "version": 0,
-    "race": "trader",
+    "race": "advent",
     "home_planet":
     {
-        "random_fixture_filling": "random_terran_home_planet",
+        "random_fixture_filling": "random_desert_home_planet",
         "levels": [
         {
             "income_rates":
@@ -27,6 +27,32 @@
                     "additive": 2000.0
                 }
             }
+        },
+        {
+            "prerequisites": [
+                ["advent_upgrade_home_planet"]
+            ],
+            "income_rates":
+            {
+                "credits": 4.0,
+                "metal": 3.0,
+                "crystal": 3.0
+            },
+            "modifier_values":
+            {
+                "max_civilian_structure_slots":
+                {
+                    "additive": 6.0
+                },
+                "max_military_structure_slots":
+                {
+                    "additive": 20.0
+                },
+                "max_health_points":
+                {
+                    "additive": 4000.0
+                }
+            }
         }],
         "starting_track_levels":
         {
@@ -35,7 +61,7 @@
             "mining": 1
         },
         "starting_planet_components": [
-            "trader_rebel_homeworld_human_doctrine_center"
+            "advent_loyalist_homeworld_temple_of_pilgrimage"
         ],
         "establish_price":
         {
@@ -403,25 +429,17 @@
     {
         "required_units": [
         {
-            "unit": "trader_scout_corvette",
+            "unit": "advent_scout_corvette",
             "count": [2, 2]
         },
         {
-            "unit": "trader_frigate_factory_structure"
+            "unit": "advent_ship_factory_structure"
         },
         {
-            "unit": "trader_capital_ship_factory_structure"
-        },
-        {
-            "unit": "trader_retrofit_bay_structure"
+            "unit": "advent_capital_ship_factory_structure"
         }]
     }],
-    "starting_npc_detection":
-    {
-        "specific_npcs": [
-            "pirate_npc"]
-    },
-    "fleet": "trader_fleet",
+    "fleet": "advent_fleet",
     "fleet_name_group": "fleet",
     "unit_build_groups": [
     {
@@ -450,31 +468,31 @@
         "column_count": 1
     }],
     "buildable_units": [
-        "trader_scout_corvette",
-        "trader_light_frigate",
-        "trader_skirmisher_corvette_frigate",
-        "trader_colony_frigate",
-        "trader_siege_frigate",
-        "trader_carrier_cruiser",
-        "trader_antifighter_frigate",
-        "trader_antiarmor_frigate",
-        "trader_robotics_cruiser",
-        "trader_long_range_cruiser",
-        "trader_heavy_cruiser",
-        "trader_torpedo_cruiser",
-        "trader_battle_capital_ship",
-        "trader_colony_capital_ship",
-        "trader_support_capital_ship",
-        "trader_carrier_capital_ship",
-        "trader_siege_capital_ship",
-        "trader_rebel_titan"
+        "advent_scout_corvette",
+        "advent_light_frigate",
+        "advent_gunship_corvette",
+        "advent_colony_frigate",
+        "advent_siege_frigate",
+        "advent_defense_cruiser",
+        "advent_carrier_cruiser",
+        "advent_guardian_cruiser",
+        "advent_subjugator_cruiser",
+        "advent_missile_frigate",
+        "advent_long_range_cruiser",
+        "advent_heavy_cruiser",
+        "advent_battle_capital_ship",
+        "advent_colony_capital_ship",
+        "advent_carrier_capital_ship",
+        "advent_battle_psionic_capital_ship",
+        "advent_planet_psionic_capital_ship",
+        "advent_loyalist_titan"
     ],
     "faction_buildable_units": [
-        "trader_rebel_titan"
+        "advent_loyalist_titan"
     ],
     "buildable_strikecraft": [
-        "trader_interceptor_strikecraft",
-        "trader_bomber_strikecraft"
+        "advent_interceptor_strikecraft",
+        "advent_bomber_strikecraft"
     ],
     "structure_build_groups": [
     {
@@ -491,34 +509,29 @@
     }],
     "structure_builder":
     {
-        "ship": "trader_constructor_ship",
+        "ship": "advent_constructor_ship",
         "special_operation_unit_kind": "structure_builder"
     },
     "structures": [
-        "trader_metal_extractor_structure",
-        "trader_crystal_extractor_structure",
-        "trader_frigate_factory_structure",
-        "trader_capital_ship_factory_structure",
-        "trader_civilian_research_lab_structure",
-        "trader_military_research_lab_structure",
-        "trader_culture_center_structure",
-        "trader_exotic_factory_structure",
-        "trader_trade_port_structure",
-        "trader_rebel_titan_factory_structure",
-        "trader_autocannon_defense_structure",
-        "trader_retrofit_bay_structure",
-        "trader_gauss_defense_structure",
-        "trader_phase_jump_inhibitor_structure",
-        "trader_hangar_defense_structure",
-        "trader_starbase",
-        "trader_orbital_cannon_structure"
-    ],
-    "faction_structures": [
-        "trader_orbital_cannon_structure"
+        "advent_metal_extractor_structure",
+        "advent_crystal_extractor_structure",
+        "advent_ship_factory_structure",
+        "advent_capital_ship_factory_structure",
+        "advent_civilian_research_lab_structure",
+        "advent_military_research_lab_structure",
+        "advent_culture_center_structure",
+        "advent_exotic_factory_structure",
+        "advent_unity_structure",
+        "advent_laser_defense_structure",
+        "advent_temple_of_renewal_structure",
+        "advent_beam_defense_structure",
+        "advent_phase_jump_inhibitor_structure",
+        "advent_hangar_defense_structure",
+        "advent_starbase",
+        "advent_deliverance_engine_structure"
     ],
     "ability_created_units": [
-        "trader_missile_battery_frigate",
-        "trader_starbase"
+        "advent_starbase"
     ],
     "unit_limits":
     {
@@ -559,11 +572,11 @@
                         "empire_modifiers": [
                         {
                             "value_behavior": "additive",
-                            "modifier_type": "credit_income_rate",
-                            "value": 1.0
+                            "modifier_type": "crystal_income_rate",
+                            "value": 0.5
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_0_civil"
+                    "button_background": "advent_research_tier_button_background_0_civil"
                 },
                 {
                     "acquire_time": 60.0,
@@ -579,11 +592,11 @@
                         "empire_modifiers": [
                         {
                             "value_behavior": "additive",
-                            "modifier_type": "credit_income_rate",
-                            "value": 1.0
+                            "modifier_type": "crystal_income_rate",
+                            "value": 0.5
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_1_civil"
+                    "button_background": "advent_research_tier_button_background_1_civil"
                 },
                 {
                     "acquire_time": 120.0,
@@ -599,11 +612,11 @@
                         "empire_modifiers": [
                         {
                             "value_behavior": "additive",
-                            "modifier_type": "credit_income_rate",
-                            "value": 2.0
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.0
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_2_civil"
+                    "button_background": "advent_research_tier_button_background_2_civil"
                 },
                 {
                     "acquire_time": 180.0,
@@ -624,11 +637,11 @@
                         "empire_modifiers": [
                         {
                             "value_behavior": "additive",
-                            "modifier_type": "credit_income_rate",
-                            "value": 2.0
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.0
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_3_civil"
+                    "button_background": "advent_research_tier_button_background_3_civil"
                 },
                 {
                     "acquire_time": 240.0,
@@ -657,35 +670,35 @@
                         "empire_modifiers": [
                         {
                             "value_behavior": "additive",
-                            "modifier_type": "credit_income_rate",
-                            "value": 3.0
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.5
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_4_civil"
+                    "button_background": "advent_research_tier_button_background_4_civil"
                 }],
                 "research_fields": [
                 {
-                    "id": "civilian_industry",
-                    "name": "trader_research_field_name_civilian_industry",
-                    "picture": "trader_research_field_picture_civilian_industry"
+                    "id": "civilian_evangelism",
+                    "name": "advent_research_field_name_civilian_evangelism",
+                    "picture": "advent_research_field_picture_civilian_evangelism"
                 },
                 {
-                    "id": "civilian_annexation",
-                    "name": "trader_research_field_name_civilian_annexation",
-                    "picture": "trader_research_field_picture_civilian_annexation"
+                    "id": "civilian_reclamation",
+                    "name": "advent_research_field_name_civilian_reclamation",
+                    "picture": "advent_research_field_picture_civilian_reclamation"
                 },
                 {
-                    "id": "civilian_policy",
-                    "name": "trader_research_field_name_civilian_policy",
-                    "picture": "trader_research_field_picture_civilian_policy"
+                    "id": "civilian_material",
+                    "name": "advent_research_field_name_civilian_material",
+                    "picture": "advent_research_field_picture_civilian_material"
                 }],
-                "full_name": "trader_research_domain_full_name_civilian",
-                "partial_name": "trader_research_domain_partial_name_civilian",
-                "partial_name_uppercase": "trader_research_domain_partial_name_civilian_uppercase",
-                "research_points_name": "trader_research_domain_research_points_name_civilian",
-                "research_rate_name": "trader_research_domain_research_rate_name_civilian",
-                "button_background": "trader_research_domain_button_background_civilian",
-                "compressed_research_field_picture": "trader_research_field_picture_civilian_compressed",
+                "full_name": "advent_research_domain_full_name_civilian",
+                "partial_name": "advent_research_domain_partial_name_civilian",
+                "partial_name_uppercase": "advent_research_domain_partial_name_civilian_uppercase",
+                "research_points_name": "advent_research_domain_research_points_name_civilian",
+                "research_rate_name": "advent_research_domain_research_rate_name_civilian",
+                "button_background": "advent_research_domain_button_background_civilian",
+                "compressed_research_field_picture": "advent_research_field_picture_civilian_compressed",
                 "hud_icon": "research_civil_icon"
             },
             "military":
@@ -702,14 +715,14 @@
                     },
                     "player_modifiers":
                     {
-                        "unit_modifiers": [
+                        "weapon_modifiers": [
                         {
-                            "modifier_type": "max_armor_points",
                             "value_behavior": "scalar",
-                            "value": 0.05
+                            "modifier_type": "damage",
+                            "value": 0.02
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_0_military"
+                    "button_background": "advent_research_tier_button_background_0_military"
                 },
                 {
                     "acquire_time": 60.0,
@@ -724,12 +737,12 @@
                     {
                         "unit_modifiers": [
                         {
-                            "modifier_type": "hull_crippled_percentage",
-                            "value_behavior": "additive",
-                            "value": 0.1
+                            "modifier_type": "shield_burst_restore_points",
+                            "value_behavior": "scalar",
+                            "value": 0.05
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_1_military"
+                    "button_background": "advent_research_tier_button_background_1_military"
                 },
                 {
                     "acquire_time": 120.0,
@@ -742,14 +755,14 @@
                     },
                     "player_modifiers":
                     {
-                        "unit_modifiers": [
+                        "weapon_modifiers": [
                         {
-                            "modifier_type": "max_armor_points",
                             "value_behavior": "scalar",
-                            "value": 0.05
+                            "modifier_type": "damage",
+                            "value": 0.02
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_2_military"
+                    "button_background": "advent_research_tier_button_background_2_military"
                 },
                 {
                     "acquire_time": 180.0,
@@ -769,12 +782,12 @@
                     {
                         "unit_modifiers": [
                         {
-                            "modifier_type": "hull_crippled_percentage",
-                            "value_behavior": "additive",
-                            "value": 0.1
+                            "modifier_type": "shield_burst_restore_points",
+                            "value_behavior": "scalar",
+                            "value": 0.05
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_3_military"
+                    "button_background": "advent_research_tier_button_background_3_military"
                 },
                 {
                     "acquire_time": 240.0,
@@ -800,290 +813,256 @@
                     }],
                     "player_modifiers":
                     {
-                        "unit_modifiers": [
+                        "weapon_modifiers": [
                         {
-                            "modifier_type": "max_armor_points",
                             "value_behavior": "scalar",
-                            "value": 0.05
+                            "modifier_type": "damage",
+                            "value": 0.02
                         }]
                     },
-                    "button_background": "trader_research_tier_button_background_4_military"
+                    "button_background": "advent_research_tier_button_background_4_military"
                 }],
                 "research_fields": [
                 {
-                    "id": "military_mobilization",
-                    "name": "trader_research_field_name_military_mobilization",
-                    "picture": "trader_research_field_picture_military_mobilization"
+                    "id": "military_ascension",
+                    "name": "advent_research_field_name_military_ascension",
+                    "picture": "advent_research_field_picture_military_ascension"
                 },
                 {
-                    "id": "military_experimental",
-                    "name": "trader_research_field_name_military_experimental",
-                    "picture": "trader_research_field_picture_military_experimental"
+                    "id": "military_energy",
+                    "name": "advent_research_field_name_military_energy",
+                    "picture": "advent_research_field_picture_military_energy"
                 },
                 {
-                    "id": "military_armament",
-                    "name": "trader_research_field_name_military_armament",
-                    "picture": "trader_research_field_picture_military_armament"
-                },
-                {
-                    "id": "military_engineering",
-                    "name": "trader_research_field_name_military_engineering",
-                    "picture": "trader_research_field_picture_military_engineering"
+                    "id": "military_protection",
+                    "name": "advent_research_field_name_military_protection",
+                    "picture": "advent_research_field_picture_military_protection"
                 }],
-                "full_name": "trader_research_domain_full_name_military",
-                "partial_name": "trader_research_domain_partial_name_military",
-                "partial_name_uppercase": "trader_research_domain_partial_name_military_uppercase",
-                "research_points_name": "trader_research_domain_research_points_name_military",
-                "research_rate_name": "trader_research_domain_research_rate_name_military",
-                "button_background": "trader_research_domain_button_background_military",
-                "compressed_research_field_picture": "trader_research_field_picture_military_compressed",
+                "full_name": "advent_research_domain_full_name_military",
+                "partial_name": "advent_research_domain_partial_name_military",
+                "partial_name_uppercase": "advent_research_domain_partial_name_military_uppercase",
+                "research_points_name": "advent_research_domain_research_points_name_military",
+                "research_rate_name": "advent_research_domain_research_rate_name_military",
+                "button_background": "advent_research_domain_button_background_military",
+                "compressed_research_field_picture": "advent_research_field_picture_military_compressed",
                 "hud_icon": "research_military_icon"
             }
         },
         "research_subjects": [
-            "trader_antimatter_0",
-            "trader_antimatter_1",
-            "trader_asteroid_planet_credit_rate",
-            "trader_autocannon_weapon_damage_0",
-            "trader_autocannon_weapon_damage_1",
-            "trader_autocannon_weapon_damage_2",
-            "trader_autocannon_weapon_damage_3",
-            "trader_beam_weapon_damage_0",
-            "trader_beam_weapon_damage_1",
-            "trader_capital_ship_starting_level_0",
-            "trader_capital_ship_starting_level_1",
-            "trader_commerce_culture",
-            "trader_commercial_district_credit_rate",
-            "trader_corvette_speed",
-            "trader_culture_insurgency",
-            "trader_culture_rate_0",
-            "trader_culture_rate_1",
-            "trader_desert_planet_credit_rate",
-            "trader_economic_exotic_build_rate",
-            "trader_enemy_culture_suppression",
-            "trader_find_npc_explore",
-            "trader_heavy_fallout",
-            "trader_heavy_maneuvering_thrusters",
-            "trader_high_order_explosives",
-            "trader_hull_damage_reduction_0",
-            "trader_hull_damage_reduction_1",
-            "trader_hull_damage_reduction_2",
-            "trader_improve_culture_propagation",
-            "trader_improve_gauss_defense_cooldown",
-            "trader_improve_gauss_defense_range",
-            "trader_labor_negotiations",
-            "trader_max_hull_points_0",
-            "trader_max_hull_points_1",
-            "trader_max_hull_points_2",
-            "trader_max_supply_0",
-            "trader_max_supply_1",
-            "trader_max_supply_2",
-            "trader_max_supply_3",
-            "trader_max_supply_4",
-            "trader_mining_track_crystal_rate_0",
-            "trader_mining_track_crystal_rate_1",
-            "trader_mining_track_metal_rate_0",
-            "trader_mining_track_metal_rate_1",
-            "trader_missile_weapon_damage_0",
-            "trader_missile_weapon_damage_1",
-            "trader_missile_weapon_damage_2",
-            "trader_missile_weapon_range",
-            "trader_npc_market_discounts",
-            "trader_orbital_cannon_structure_range",
-            "trader_orbital_extraction_crystal_rate_0",
-            "trader_orbital_extraction_crystal_rate_1",
-            "trader_orbital_extraction_metal_rate_0",
-            "trader_orbital_extraction_metal_rate_1",
-            "trader_pervasive_economy",
-            "trader_pirate_raid_supply",
-            "trader_planet_bombing_damage_0",
-            "trader_planet_civilian_slots",
-            "trader_planet_health_restore_rate",
-            "trader_planet_pillaging",
-            "trader_planet_track_upgrade_rate",
-            "trader_quick_phase_jump",
-            "trader_rebel_pirate_cease_fire",
-            "trader_rebel_pirate_share_vision",
-            "trader_retrofit_bay_repair_rate_0",
-            "trader_savage_thrill",
-            "trader_scout_corvette_hyperspace_charge_time",
-            "trader_shields_0",
-            "trader_shields_1",
-            "trader_shields_corvette",
-            "trader_shields_cruiser",
-            "trader_shields_frigate",
-            "trader_structure_build_rate",
-            "trader_structure_price_decrease",
-            "trader_terran_planet_credit_rate",
-            "trader_trade_port_culture",
-            "trader_trade_port_income_rate_0",
-            "trader_trade_port_income_rate_1",
-            "trader_unit_factory_build_rate",
-            "trader_unlock_alloy_foundry_unit_item",
-            "trader_unlock_antiarmor_frigate",
-            "trader_unlock_antifighter_frigate",
-            "trader_unlock_antifighter_frigate_light_autocannon_weapon",
-            "trader_unlock_antimatter_engine_unit_item",
-            "trader_unlock_backup_shield_generator_unit_item",
-            "trader_unlock_build_ultimate_exotic",
-            "trader_unlock_carrier_cruiser",
-            "trader_unlock_chemical_plant_unit_item",
-            "trader_unlock_combat_repair_system_unit_item",
-            "trader_unlock_command_bunker_unit_item",
-            "trader_unlock_commercial_district_unit_item",
-            "trader_unlock_crystal_synthesizer_unit_item",
-            "trader_unlock_crystalline_biosphere",
-            "trader_unlock_culture_center",
-            "trader_unlock_culture_planet_credit_income_rate_bonus",
-            "trader_unlock_culture_ship_max_linear_speed_bonus",
-            "trader_unlock_culture_unit_factory_production_penalty",
-            "trader_unlock_deploy_starbase_unit_item",
-            "trader_unlock_desert_biosphere",
-            "trader_unlock_exotic_factory_structure",
-            "trader_unlock_ferric_mining_rig_unit_item",
-            "trader_unlock_ferrous_biosphere",
-            "trader_unlock_flak_burst_unit_item",
-            "trader_unlock_fulfilment_warehouse_unit_item",
-            "trader_unlock_gas_crystalizer_unit_item",
-            "trader_unlock_gas_giant_biosphere",
-            "trader_unlock_gas_harvester_unit_item",
-            "trader_unlock_hangar_defense_point_defense_autocannon_weapon",
-            "trader_unlock_hangar_defense_structure",
-            "trader_unlock_harvesting_crawler_unit_item",
-            "trader_unlock_heavy_cruiser",
-            "trader_unlock_heavy_gauss_slugs_unit_item",
-            "trader_unlock_high_yield_warheads_unit_item",
-            "trader_unlock_human_doctrine_center_unit_item",
-            "trader_unlock_hyperspace_between_stars",
-            "trader_unlock_ice_biosphere",
-            "trader_unlock_ice_processor_unit_item",
-            "trader_unlock_industrial_complex_unit_item",
-            "trader_unlock_long_range_cruiser",
-            "trader_unlock_media_conglomerate_unit_item",
-            "trader_unlock_metal_smelting_plant_unit_item",
-            "trader_unlock_missile_armor_unit_item",
-            "trader_unlock_missile_guidance_computer_unit_item",
-            "trader_unlock_munitions_plant_unit_item",
-            "trader_unlock_oceanic_biosphere",
-            "trader_unlock_oceanic_domes_unit_item",
-            "trader_unlock_orbital_cannon_structure",
-            "trader_unlock_phase_jump_inhibitor",
-            "trader_unlock_phase_lane_detector",
-            "trader_unlock_phase_lane_detector_extended_range",
-            "trader_unlock_pirate_mercenary_base_unit_item",
-            "trader_unlock_rapid_autoloader_unit_item",
-            "trader_unlock_rebel_titan",
-            "trader_unlock_rebel_titan_rail_gun_weapon_unit_item",
-            "trader_unlock_regional_government_unit_item",
-            "trader_unlock_remote_drone_refinery_unit_item",
-            "trader_unlock_reserve_squadron_hangar_unit_item",
-            "trader_unlock_resource_extractor_structures",
-            "trader_unlock_retrofit_bay_repair_ability",
-            "trader_unlock_robotics_cruiser",
-            "trader_unlock_robotics_cruiser_antimatter_droids_ability",
-            "trader_unlock_siege_frigate",
-            "trader_unlock_skirmisher_corvette_frigate",
-            "trader_unlock_starbase",
-            "trader_unlock_starbase_docking_booms_unit_item",
-            "trader_unlock_starbase_improve_weapon_item",
-            "trader_unlock_starbase_planetary_shield_array_unit_item",
-            "trader_unlock_starbase_self_destruct_unit_item",
-            "trader_unlock_starbase_structural_integrity_2_unit_item",
-            "trader_unlock_starbase_trade_port_unit_item",
-            "trader_unlock_starbase_unit_factory_unit_item",
-            "trader_unlock_starbase_unlock_beam_weapon_unit_item",
-            "trader_unlock_starbase_unlock_torpedo_weapon_unit_item",
-            "trader_unlock_swamp_biosphere",
-            "trader_unlock_targeting_array_unit_item",
-            "trader_unlock_torpedo_cruiser",
-            "trader_unlock_trade_escorts_0",
-            "trader_unlock_trade_escorts_1",
-            "trader_unlock_trade_port",
-            "trader_unlock_trade_ship_detection",
-            "trader_unlock_volatile_accelerants_unit_item",
-            "trader_unlock_volcanic_biosphere",
-            "trader_unlock_war_reporter_unit_item",
-            "trader_unstoppable_phase_jump",
-            "trader_upgrade_backup_shield_generator_unit_item",
-            "trader_upgrade_command_bunker_unit_item",
-            "trader_upgrade_crystalline_biosphere",
-            "trader_upgrade_culture_ship_max_linear_speed_bonus",
-            "trader_upgrade_desert_biosphere",
-            "trader_upgrade_experience_gain_0",
-            "trader_upgrade_experience_gain_1",
-            "trader_upgrade_ferrous_biosphere",
-            "trader_upgrade_ice_biosphere",
-            "trader_upgrade_ice_biosphere_credit_rate",
-            "trader_upgrade_influence_0",
-            "trader_upgrade_influence_1",
-            "trader_upgrade_influence_2",
-            "trader_upgrade_influence_rate",
-            "trader_upgrade_loot_experience_gain",
-            "trader_upgrade_oceanic_biosphere",
-            "trader_upgrade_oceanic_domes_unit_item_0",
-            "trader_upgrade_oceanic_domes_unit_item_1",
-            "trader_upgrade_radiation_bomb_unit_item",
-            "trader_upgrade_rapid_autoloader_unit_item",
-            "trader_upgrade_regional_government_office_unit_item",
-            "trader_upgrade_swamp_biosphere",
-            "trader_upgrade_volcanic_biosphere",
-            "trader_wormhole_travel"
+            
+            "advent_capital_ship_starting_level_0",
+            "advent_capital_ship_starting_level_1",
+            "advent_culture_phase_lane_detection_0",
+            "advent_culture_phase_lane_detection_1",
+            "advent_enemy_culture_suppression_0",
+            "advent_enemy_culture_suppression_1",
+            "advent_hyperspace_antimatter",
+            "advent_improved_meteoroid_control",
+            "advent_loyalist_acclimatization_of_will",
+            "advent_max_supply_0",
+            "advent_max_supply_1",
+            "advent_max_supply_2",
+            "advent_max_supply_3",
+            "advent_max_supply_4",
+            "advent_meteoroid_control",
+            "advent_passive_experience",
+            "advent_planet_culture_resistance",
+            "advent_temple_of_renewal_structure_antimatter_restore_rate",
+            "advent_unity_mana_0",
+            "advent_unity_mana_1",
+            "advent_unity_mana_2",
+            "advent_unity_mana_3",
+            "advent_unity_points_0",
+            "advent_unity_points_1",
+            "advent_unlock_all_culture_known",
+            "advent_unlock_build_ultimate_exotic",
+            "advent_unlock_carrier_cruiser",
+            "advent_unlock_crystalline_biosphere",
+            "advent_unlock_culture_center",
+            "advent_unlock_culture_crystal",
+            "advent_unlock_culture_improve_weapon_damage",
+            "advent_unlock_cynosural_reservoir_unit_item",
+            "advent_unlock_defense_cruiser",
+            "advent_unlock_deliverance_engine_structure",
+            "advent_unlock_deliverance_engine_structure_loyalist_ability",
+            "advent_unlock_deploy_starbase_unit_item",
+            "advent_unlock_detection_with_culture",
+            "advent_unlock_empyrean_city_unit_item",
+            "advent_unlock_energy_booster_unit_item",
+            "advent_unlock_exotic_factory_structure",
+            "advent_unlock_ferrous_biosphere",
+            "advent_unlock_focus_antimatter_unit_item",
+            "advent_unlock_focus_armor_unit_item",
+            "advent_unlock_focus_weapons_unit_item",
+            "advent_unlock_gas_giant_biosphere",
+            "advent_unlock_guardian_cruiser",
+            "advent_unlock_guardian_cruiser_renewal_ability",
+            "advent_unlock_guiding_mentor_unit_item",
+            "advent_unlock_gunship_corvette",
+            "advent_unlock_hangar_defense_structure",
+            "advent_unlock_harmony_circuit_unit_item",
+            "advent_unlock_haven_dome_unit_item",
+            "advent_unlock_heavy_cruiser",
+            "advent_unlock_hyperspace_between_stars",
+            "advent_unlock_ice_biosphere",
+            "advent_unlock_improved_culture_propagation",
+            "advent_unlock_laminate_forge_unit_item",
+            "advent_unlock_long_range_cruiser",
+            "advent_unlock_loyalist_titan",
+            "advent_unlock_missile_frigate",
+            "advent_unlock_neuroaugment_center_unit_item",
+            "advent_unlock_neuropsion_purifier_unit_item",
+            "advent_unlock_oceanic_biosphere",
+            "advent_unlock_phase_jump_inhibitor_structure",
+            "advent_unlock_plasma_booster_unit_item",
+            "advent_unlock_plasma_furnace_unit_item",
+            "advent_unlock_psicredit_mint_unit_item",
+            "advent_unlock_psionic_dynamo_unit_item",
+            "advent_unlock_resource_extractor_structures",
+            "advent_unlock_sanctuary_spire_unit_item",
+            "advent_unlock_scout_corvette_lingering_presence_ability",
+            "advent_unlock_shield_burst_restore",
+            "advent_unlock_ship_factory_structure_repair",
+            "advent_unlock_siege_frigate",
+            "advent_unlock_silent_monastery_unit_item",
+            "advent_unlock_starbase",
+            "advent_unlock_starbase_culture_unit_item",
+            "advent_unlock_starbase_planetary_shield_array_unit_item",
+            "advent_unlock_starbase_unlock_missile_weapon_unit_item",
+            "advent_unlock_starbase_unlock_plasma_weapon_unit_item",
+            "advent_unlock_starbase_zealous_labor_unit_item",
+            "advent_unlock_subjugator_cruiser",
+            "advent_unlock_subjugator_cruiser_nullify_ability",
+            "advent_unlock_swamp_biosphere",
+            "advent_unlock_synchronous_shield_unit_item",
+            "advent_unlock_telepathic_relay_unit_item",
+            "advent_unlock_temple_of_assimilation_unit_item",
+            "advent_unlock_temple_of_pilgrimage_unit_item",
+            "advent_unlock_temple_of_renewal_structure",
+            "advent_unlock_temple_of_renewal_structure_recharge_shields_ability",
+            "advent_unlock_tithe_collector_unit_item",
+            "advent_unlock_tranquil_refuge_unit_item",
+            "advent_unlock_unity_protectorate_unit_item",
+            "advent_unlock_unity_structure",
+            "advent_unlock_volcanic_biosphere",
+            "advent_unlock_wormhole_travel",
+            "advent_unstoppable_phase_jump",
+            "advent_upgrade_antimatter_0",
+            "advent_upgrade_antimatter_1",
+            "advent_upgrade_antimatter_2",
+            "advent_upgrade_armor_0",
+            "advent_upgrade_armor_1",
+            "advent_upgrade_armor_2",
+            "advent_upgrade_beam_weapon_damage_0",
+            "advent_upgrade_beam_weapon_damage_1",
+            "advent_upgrade_beam_weapon_damage_2",
+            "advent_upgrade_beam_weapon_range",
+            "advent_upgrade_crystal_extraction_0",
+            "advent_upgrade_crystal_extraction_1",
+            "advent_upgrade_crystal_extraction_2",
+            "advent_upgrade_crystalline_biosphere",
+            "advent_upgrade_culture_crystal_0",
+            "advent_upgrade_culture_crystal_1",
+            "advent_upgrade_culture_rate_0",
+            "advent_upgrade_culture_rate_1",
+            "advent_upgrade_culture_rate_2",
+            "advent_upgrade_deliverance_engine_structure_loyalist_ability",
+            "advent_upgrade_desert_planets_0",
+            "advent_upgrade_desert_planets_1",
+            "advent_upgrade_energy_booster_unit_item",
+            "advent_upgrade_ferrous_biosphere",
+            "advent_upgrade_home_planet",
+            "advent_upgrade_hull_points_0",
+            "advent_upgrade_hull_points_1",
+            "advent_upgrade_hull_points_2",
+            "advent_upgrade_ice_biosphere",
+            "advent_upgrade_influence_0",
+            "advent_upgrade_influence_1",
+            "advent_upgrade_influence_2",
+            "advent_upgrade_laser_weapon_damage_0",
+            "advent_upgrade_laser_weapon_damage_1",
+            "advent_upgrade_laser_weapon_damage_2",
+            "advent_upgrade_metal_extraction_0",
+            "advent_upgrade_metal_extraction_1",
+            "advent_upgrade_metal_extraction_2",
+            "advent_upgrade_missile_weapon_damage_0",
+            "advent_upgrade_missile_weapon_damage_1",
+            "advent_upgrade_missile_weapon_damage_2",
+            "advent_upgrade_missile_weapon_targeting",
+            "advent_upgrade_oceanic_biosphere",
+            "advent_upgrade_orbital_extraction_crystal_0",
+            "advent_upgrade_orbital_extraction_crystal_1",
+            "advent_upgrade_orbital_extraction_metal_0",
+            "advent_upgrade_orbital_extraction_metal_1",
+            "advent_upgrade_planet_bombing_defense",
+            "advent_upgrade_planet_max_military_structure_slots",
+            "advent_upgrade_plasma_booster_unit_item",
+            "advent_upgrade_plasma_weapon_cooldown",
+            "advent_upgrade_plasma_weapon_damage_0",
+            "advent_upgrade_plasma_weapon_damage_1",
+            "advent_upgrade_plasma_weapon_damage_2",
+            "advent_upgrade_research_rate",
+            "advent_upgrade_shield_burst_restore_0",
+            "advent_upgrade_shield_burst_restore_1",
+            "advent_upgrade_shield_points_0",
+            "advent_upgrade_shield_points_1",
+            "advent_upgrade_shield_points_2",
+            "advent_upgrade_shield_points_3",
+            "advent_upgrade_spell_power_0",
+            "advent_upgrade_spell_power_1",
+            "advent_upgrade_spell_power_2",
+            "advent_upgrade_starbase_culture_unit_item",
+            "advent_upgrade_structure_shield_points_0",
+            "advent_upgrade_structure_shield_points_1",
+            "advent_upgrade_surveying_track",
+            "advent_upgrade_swamp_biosphere",
+            "advent_upgrade_synchronous_shield_unit_item",
+            "advent_upgrade_terran_planets_0",
+            "advent_upgrade_tithe_collector_unit_item_0",
+            "advent_upgrade_tithe_collector_unit_item_1",
+            "advent_upgrade_volcanic_biosphere"
         ],
         "faction_research_subjects": [
-            "trader_enemy_culture_suppression",
-            "trader_savage_thrill",
-            "trader_planet_pillaging",
-            "trader_pirate_raid_supply",
-            "trader_high_order_explosives",
-            "trader_culture_insurgency",
-            "trader_rebel_pirate_cease_fire",
-            "trader_rebel_pirate_share_vision",
-            "trader_economic_exotic_build_rate",
-            "trader_unlock_rebel_titan_rail_gun_weapon_unit_item",
-            "trader_unlock_human_doctrine_center_unit_item",
-            "trader_unlock_pirate_mercenary_base_unit_item",
-            "trader_orbital_cannon_structure_range"
+            "advent_unlock_temple_of_pilgrimage_unit_item",
+            "advent_unlock_temple_of_assimilation_unit_item",
+            "advent_unlock_improved_culture_propagation",
+            "advent_loyalist_acclimatization_of_will",
+            "advent_unlock_culture_improve_weapon_damage"
         ]
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
-        
-        "trader_missile_armor",
-        "trader_capital_ship_insurance",
-        "trader_salvage_kit",
-        "trader_radiation_bomb",
-        "trader_flak_burst",
-        "trader_reserve_squadron_hangar",
-        "trader_antimatter_engine",
-        "trader_combat_repair_system",
-        "trader_backup_shield_generator",
-        "trader_targeting_array",
-        "trader_rapid_autoloader",
-        "trader_missile_guidance_computer",
-        "trader_heavy_gauss_slugs",
-        "trader_high_yield_warheads",
-        "trader_rebel_titan_hull_plating_0",
-        "trader_rebel_titan_hull_plating_1",
-        "trader_rebel_titan_unlock_missile_weapon",
-        "trader_rebel_titan_unlock_rail_gun_weapon",
-        "trader_rebel_titan_hangar",
-        "trader_starbase_hangar_0",
-        "trader_starbase_hangar_1",
-        "trader_starbase_hangar_2",
-        "trader_starbase_structural_integrity_0",
-        "trader_starbase_structural_integrity_1",
-        "trader_starbase_structural_integrity_2",
-        "trader_starbase_additional_shield_generator",
-        "trader_starbase_docking_booms",
-        "trader_starbase_trade_port",
-        "trader_starbase_unit_factory",
-        "trader_starbase_self_destruct",
-        "trader_starbase_planetary_shield_array",
-        "trader_starbase_unlock_beam_weapon",
-        "trader_starbase_unlock_torpedo_weapon",
-        "trader_deploy_starbase",
-        "trader_volatile_accelerants",
-        "trader_war_reporter"
+        "_ship_modifiers",
+        "advent_antimatter_pod",
+        "advent_psionic_adepts",
+        "advent_energy_booster",
+        "advent_focus_antimatter",
+        "advent_focus_armor",
+        "advent_focus_weapons",
+        "advent_guiding_mentor",
+        "advent_harmony_circuit",
+        "advent_plasma_booster",
+        "advent_plasma_pulse",
+        "advent_psionic_dynamo",
+        "advent_shield_battery",
+        "advent_shield_boost",
+        "advent_deploy_starbase",
+        "advent_loyalist_titan_hull_plating",
+        "advent_loyalist_titan_shield_booster",
+        "advent_loyalist_titan_unlock_beam_weapon",
+        "advent_starbase_hangar_0",
+        "advent_starbase_hangar_1",
+        "advent_starbase_hangar_2",
+        "advent_starbase_structural_integrity_0",
+        "advent_starbase_structural_integrity_1",
+        "advent_starbase_structural_integrity_2",
+        "advent_starbase_culture",
+        "advent_starbase_unlock_missile_weapon",
+        "advent_starbase_unlock_plasma_weapon",
+        "advent_starbase_shield_booster",
+        "advent_starbase_zealous_labor",
+        "advent_starbase_meteor_storm",
+        "advent_starbase_planetary_shield_array"
     ],
     "ship_component_build_groups": [
     {
@@ -1102,30 +1081,29 @@
         "column_count": 5
     }],
     "planet_components": [
-        "trader_alloy_foundry",
-        "trader_asteroid_civilian_research_lab",
-        "trader_asteroid_military_research_lab",
-        "trader_chemical_plant",
-        "trader_crystal_synthesizer",
-        "trader_gas_harvester",
-        "trader_gas_crystalizer",
-        "trader_harvesting_crawler",
-        "trader_metal_smelting_plant",
-        "trader_ice_processor",
-        "trader_remote_drone_refinery",
-        "trader_surface_civilian_research_lab",
-        "trader_surface_military_research_lab",
-        "trader_commercial_district",
-        "trader_ferric_mining_rig",
-        "trader_fulfilment_warehouse",
-        "trader_oceanic_domes",
-        "trader_pirate_mercenary_base",
-        "trader_media_conglomerate",
-        "trader_regional_government_office",
-        "trader_command_bunker",
-        "trader_munitions_plant",
-        "trader_industrial_complex",
-        "trader_rebel_human_doctrine_center"
+        "advent_tithe_collector",
+        "advent_empyrean_city",
+        "advent_haven_dome",
+        "advent_sanctuary_spire",
+        "advent_cynosural_reservoir",
+        "advent_tranquil_refuge",
+        "advent_psicredit_mint",
+        "advent_laminate_forge",
+        "advent_surface_military_advanced_research_lab",
+        "advent_surface_civilian_advanced_research_lab",
+        "advent_surface_military_research_lab",
+        "advent_surface_civilian_research_lab",
+        "advent_telepathic_relay",
+        "advent_neuropsion_purifier",
+        "advent_neuroaugment_center",
+        "advent_plasma_furnace",
+        "advent_silent_monastery",
+        "advent_temple_of_pilgrimage",
+        "advent_unity_protectorate",
+        "advent_temple_of_assimilation"
+    ],
+    "faction_planet_components": [
+        "advent_temple_of_assimilation"
     ],
     "planet_component_build_groups": [
     {
@@ -1141,9 +1119,9 @@
     {
         "id": "utility",
         "name": "planet_component_build_group_name_utility",
-        "column_count": 4
+        "column_count": 5
     }],
-    "first_capital_ship_item": "trader_capital_ship_insurance",
+    "first_capital_ship_item": "advent_psionic_adepts",
     "planet_types": [
     {
         "planet_type": "asteroid",
@@ -1205,23 +1183,13 @@
             "research": [
             {}]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 1
     },
     {
         "planet_type": "crystalline",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_crystalline_biosphere"]
+            ["advent_unlock_crystalline_biosphere"]
         ],
         "tracks":
         {
@@ -1238,7 +1206,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_crystalline_biosphere"]
+                    ["advent_upgrade_crystalline_biosphere"]
                 ],
                 "max_military_structure_slots": 10,
                 "max_health_points": 3000.0,
@@ -1270,7 +1238,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_crystalline_biosphere"]
+                    ["advent_upgrade_crystalline_biosphere"]
                 ],
                 "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 14,
@@ -1281,7 +1249,7 @@
             {},
             {
                 "prerequisites": [
-                    ["trader_upgrade_crystalline_biosphere"]
+                    ["advent_upgrade_crystalline_biosphere"]
                 ],
                 "credits_income_rate": 1.8,
                 "max_health_points": 100
@@ -1306,7 +1274,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_crystalline_biosphere"]
+                    ["advent_upgrade_crystalline_biosphere"]
                 ],
                 "crystal_income_rate": 3.2,
                 "max_health_points": 500
@@ -1330,46 +1298,18 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_crystalline_biosphere"]
+                    ["advent_upgrade_crystalline_biosphere"]
                 ],
                 "civilian_research_rate_scalar": 0.5,
                 "max_health_points": 400,
                 "military_research_rate_scalar": 0.5
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "crystal": 2
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "crystal": 2
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "crystal": 2
-            }
-        }]
+        "max_unity_provider_count": 4
     },
     {
         "planet_type": "desert",
         "can_ever_be_colonized": true,
-        "colonization_research_prerequisites": [
-            ["trader_unlock_desert_biosphere"]
-        ],
         "tracks":
         {
             "defense": [
@@ -1394,9 +1334,6 @@
                 "health_points_restore_rate": 8.0
             },
             {
-                "prerequisites": [
-                    ["trader_upgrade_desert_biosphere"]
-                ],
                 "max_military_structure_slots": 30,
                 "max_health_points": 7500.0,
                 "health_points_restore_rate": 15.0
@@ -1426,9 +1363,6 @@
                 "max_health_points": 300
             },
             {
-                "prerequisites": [
-                    ["trader_upgrade_desert_biosphere"]
-                ],
                 "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 14,
                 "structure_builder_count": 4,
@@ -1445,9 +1379,6 @@
                 "max_health_points": 200
             },
             {
-                "prerequisites": [
-                    ["trader_upgrade_desert_biosphere"]
-                ],
                 "credits_income_rate": 7.2,
                 "max_health_points": 300
             }],
@@ -1469,9 +1400,6 @@
                 "max_health_points": 300
             },
             {
-                "prerequisites": [
-                    ["trader_upgrade_desert_biosphere"]
-                ],
                 "metal_income_rate": 2.16,
                 "crystal_income_rate": 1.44,
                 "max_health_points": 400
@@ -1489,58 +1417,18 @@
                 "civilian_research_rate_scalar": 0.15
             },
             {
-                "prerequisites": [
-                    ["trader_upgrade_desert_biosphere"]
-                ],
                 "military_research_rate_scalar": 0.3,
                 "max_health_points": 300,
                 "civilian_research_rate_scalar": 0.3
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 4,
-            "export_points":
-            {
-                "credits": 4,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 5
     },
     {
         "planet_type": "ferrous",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_ferrous_biosphere"]
+            ["advent_unlock_ferrous_biosphere"]
         ],
         "tracks":
         {
@@ -1567,7 +1455,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ferrous_biosphere"]
+                    ["advent_upgrade_ferrous_biosphere"]
                 ],
                 "max_military_structure_slots": 30,
                 "max_health_points": 7500.0,
@@ -1605,7 +1493,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ferrous_biosphere"]
+                    ["advent_upgrade_ferrous_biosphere"]
                 ],
                 "credits_income_rate": 4.2,
                 "max_health_points": 200
@@ -1632,7 +1520,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ferrous_biosphere"]
+                    ["advent_upgrade_ferrous_biosphere"]
                 ],
                 "metal_income_rate": 4.8,
                 "max_health_points": 500
@@ -1651,45 +1539,20 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ferrous_biosphere"]
+                    ["advent_upgrade_ferrous_biosphere"]
                 ],
                 "military_research_rate_scalar": 0.3,
                 "max_health_points": 300,
                 "civilian_research_rate_scalar": 0.3
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 2
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 2
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 2
-            }
-        }]
+        "max_unity_provider_count": 2
     },
     {
         "planet_type": "gas_giant",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_gas_giant_biosphere"]
+            ["advent_unlock_gas_giant_biosphere"]
         ],
         "tracks":
         {
@@ -1782,59 +1645,13 @@
                 "military_research_rate_scalar": 0.75
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 4,
-            "export_points":
-            {
-                "credits": 4,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 5,
-            "export_points":
-            {
-                "credits": 5,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 1
     },
     {
         "planet_type": "ice",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_ice_biosphere"]
+            ["advent_unlock_ice_biosphere"]
         ],
         "tracks":
         {
@@ -1861,7 +1678,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ice_biosphere"]
+                    ["advent_upgrade_ice_biosphere"]
                 ],
                 "max_military_structure_slots": 30,
                 "max_health_points": 7500.0,
@@ -1887,7 +1704,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ice_biosphere"]
+                    ["advent_upgrade_ice_biosphere"]
                 ],
                 "max_planet_component_slots": 3,
                 "max_civilian_structure_slots": 9,
@@ -1906,7 +1723,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ice_biosphere"]
+                    ["advent_upgrade_ice_biosphere"]
                 ],
                 "credits_income_rate": 7.2,
                 "max_health_points": 300
@@ -1923,7 +1740,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ice_biosphere"]
+                    ["advent_upgrade_ice_biosphere"]
                 ],
                 "crystal_income_rate": 1.44,
                 "max_health_points": 300
@@ -1937,39 +1754,14 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_ice_biosphere"]
+                    ["advent_upgrade_ice_biosphere"]
                 ],
                 "civilian_research_rate_scalar": 0.15,
                 "max_health_points": 200,
                 "military_research_rate_scalar": 0.15
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "crystal": 2
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "crystal": 2
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "crystal": 2
-            }
-        }]
+        "max_unity_provider_count": 3
     },
     {
         "planet_type": "moon",
@@ -2045,23 +1837,13 @@
             "research": [
             {}]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 2
     },
     {
         "planet_type": "oceanic",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_oceanic_biosphere"]
+            ["advent_unlock_oceanic_biosphere"]
         ],
         "tracks":
         {
@@ -2083,7 +1865,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_oceanic_biosphere"]
+                    ["advent_upgrade_oceanic_biosphere"]
                 ],
                 "max_military_structure_slots": 20,
                 "max_health_points": 5000.0,
@@ -2115,7 +1897,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_oceanic_biosphere"]
+                    ["advent_upgrade_oceanic_biosphere"]
                 ],
                 "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 14,
@@ -2138,7 +1920,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_oceanic_biosphere"]
+                    ["advent_upgrade_oceanic_biosphere"]
                 ],
                 "credits_income_rate": 10.8,
                 "max_health_points": 400
@@ -2152,7 +1934,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_oceanic_biosphere"]
+                    ["advent_upgrade_oceanic_biosphere"]
                 ],
                 "metal_income_rate": 0.84,
                 "crystal_income_rate": 0.56,
@@ -2182,57 +1964,20 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_oceanic_biosphere"]
+                    ["advent_upgrade_oceanic_biosphere"]
                 ],
                 "civilian_research_rate_scalar": 0.75,
                 "max_health_points": 500,
                 "military_research_rate_scalar": 0.75
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 4,
-            "export_points":
-            {
-                "credits": 4,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 4
     },
     {
         "planet_type": "swamp",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_swamp_biosphere"]
+            ["advent_unlock_swamp_biosphere"]
         ],
         "tracks":
         {
@@ -2254,7 +1999,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_swamp_biosphere"]
+                    ["advent_upgrade_swamp_biosphere"]
                 ],
                 "max_military_structure_slots": 20,
                 "max_health_points": 5000.0,
@@ -2280,7 +2025,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_swamp_biosphere"]
+                    ["advent_upgrade_swamp_biosphere"]
                 ],
                 "max_planet_component_slots": 3,
                 "max_civilian_structure_slots": 9,
@@ -2303,7 +2048,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_swamp_biosphere"]
+                    ["advent_upgrade_swamp_biosphere"]
                 ],
                 "credits_income_rate": 10.8,
                 "max_health_points": 400
@@ -2317,7 +2062,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_swamp_biosphere"]
+                    ["advent_upgrade_swamp_biosphere"]
                 ],
                 "metal_income_rate": 0.84,
                 "crystal_income_rate": 0.56,
@@ -2337,42 +2082,14 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_swamp_biosphere"]
+                    ["advent_upgrade_swamp_biosphere"]
                 ],
                 "civilian_research_rate_scalar": 0.3,
                 "max_health_points": 300,
                 "military_research_rate_scalar": 0.3
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 4
     },
     {
         "planet_type": "terran",
@@ -2497,59 +2214,13 @@
                 "military_research_rate_scalar": 0.5
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 4,
-            "export_points":
-            {
-                "credits": 4,
-                "metal": 1,
-                "crystal": 1
-            }
-        },
-        {
-            "import_points": 5,
-            "export_points":
-            {
-                "credits": 5,
-                "metal": 1,
-                "crystal": 1
-            }
-        }]
+        "max_unity_provider_count": 5
     },
     {
         "planet_type": "volcanic",
         "can_ever_be_colonized": true,
         "colonization_research_prerequisites": [
-            ["trader_unlock_volcanic_biosphere"]
+            ["advent_unlock_volcanic_biosphere"]
         ],
         "tracks":
         {
@@ -2571,7 +2242,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_volcanic_biosphere"]
+                    ["advent_upgrade_volcanic_biosphere"]
                 ],
                 "max_military_structure_slots": 20,
                 "max_health_points": 5000.0,
@@ -2597,7 +2268,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_volcanic_biosphere"]
+                    ["advent_upgrade_volcanic_biosphere"]
                 ],
                 "max_planet_component_slots": 3,
                 "max_civilian_structure_slots": 9,
@@ -2608,7 +2279,7 @@
             {},
             {
                 "prerequisites": [
-                    ["trader_upgrade_volcanic_biosphere"]
+                    ["advent_upgrade_volcanic_biosphere"]
                 ],
                 "credits_income_rate": 1.8,
                 "max_health_points": 100
@@ -2625,7 +2296,7 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_volcanic_biosphere"]
+                    ["advent_upgrade_volcanic_biosphere"]
                 ],
                 "metal_income_rate": 2.16,
                 "max_health_points": 300
@@ -2649,39 +2320,14 @@
             },
             {
                 "prerequisites": [
-                    ["trader_upgrade_volcanic_biosphere"]
+                    ["advent_upgrade_volcanic_biosphere"]
                 ],
                 "military_research_rate_scalar": 0.5,
                 "max_health_points": 400,
                 "civilian_research_rate_scalar": 0.5
             }]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 1,
-                "metal": 2
-            }
-        },
-        {
-            "import_points": 2,
-            "export_points":
-            {
-                "credits": 2,
-                "metal": 2
-            }
-        },
-        {
-            "import_points": 3,
-            "export_points":
-            {
-                "credits": 3,
-                "metal": 2
-            }
-        }]
+        "max_unity_provider_count": 2
     },
     {
         "planet_type": "pirate_base",
@@ -2763,15 +2409,7 @@
             "research": [
             {}]
         },
-        "maintenance_cost_rates": [],
-        "trade_capacity_levels": [
-        {
-            "import_points": 1,
-            "export_points":
-            {
-                "credits": 3
-            }
-        }]
+        "max_unity_provider_count": 1
     }],
     "default_starting_assets":
     {
@@ -2799,129 +2437,76 @@
         },
         {
             "prerequisites": [
-                ["trader_improve_culture_propagation"]
+                ["advent_unlock_improved_culture_propagation"]
             ],
-            "propagation_rate_scalar": -1.0
+            "propagation_rate_scalar": -1.5
         }],
-        "friendly_unit_modifiers": [
+        "friendly_weapon_modifiers": [
         {
-            "modifier_type": "max_linear_speed",
+            "modifier_type": "damage",
+            "weapon_type": "normal",
             "value_behavior": "scalar",
             "values": [
             {
-                "value": 0.1,
+                "value": 0.2,
                 "prerequisites": [
-                    ["trader_unlock_culture_ship_max_linear_speed_bonus"]
+                    ["advent_unlock_culture_improve_weapon_damage"]
                 ]
-            },
+            }]
+        }],
+        "empire_modifiers": [
+        {
+            "modifier_type": "unity_max_mana_points",
+            "value_behavior": "additive",
+            "values": [
             {
-                "value": 0.25,
+                "value": 5.0,
                 "prerequisites": [
-                    ["trader_upgrade_culture_ship_max_linear_speed_bonus"]
+                    ["advent_loyalist_acclimatization_of_will"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "unity_mana_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+            {
+                "value": 0.05,
+                "prerequisites": [
+                    ["advent_loyalist_acclimatization_of_will"]
                 ]
             }]
         }],
         "friendly_planet_modifiers": [
         {
-            "modifier_type": "commerce_track_credit_income_rate",
-            "value_behavior": "scalar",
+            "modifier_type": "mining_track_crystal_income_rate",
+            "value_behavior": "additive",
             "values": [
             {
-                "value": 0.1,
+                "value": 0.3,
                 "prerequisites": [
-                    ["trader_unlock_culture_center"]
+                    ["advent_unlock_culture_crystal"]
                 ]
             },
             {
-                "value": 0.25,
+                "value": 0.6,
                 "prerequisites": [
-                    ["trader_unlock_culture_planet_credit_income_rate_bonus"]
+                    ["advent_upgrade_culture_crystal_0"]
                 ]
-            }]
-        }],
-        "enemy_planet_modifiers": [
-        {
-            "modifier_type": "factory_unit_build_time",
-            "value_behavior": "scalar",
-            "values": [
-            {
-                "value": 0.25,
-                "prerequisites": [
-                    ["trader_unlock_culture_unit_factory_production_penalty"]
-                ]
-            }]
-        },
-        {
-            "modifier_type": "factory_exotic_build_time",
-            "value_behavior": "scalar",
-            "values": [
-            {
-                "value": 0.25,
-                "prerequisites": [
-                    ["trader_unlock_culture_unit_factory_production_penalty"]
-                ]
-            }]
-        }],
-        "planet_track_level_culture_providers": [
-        {
-            "track_type": "commerce",
-            "minimum_level": 3,
-            "prerequisites": [
-                ["trader_commerce_culture"]
-            ],
-            "rate": 0.05
-        }],
-        "insurgency":
-        {
-            "prerequisites": [
-                ["trader_culture_insurgency"]
-            ],
-            "special_operation_unit_kind": "insurgent",
-            "spawn_units":
-            {
-                "random_units": [
-                {
-                    "unit": "trader_light_frigate",
-                    "weight": 20.0
-                },
-                {
-                    "unit": "trader_skirmisher_corvette_frigate",
-                    "weight": 20.0
-                },
-                {
-                    "unit": "trader_long_range_cruiser",
-                    "weight": 20.0
-                },
-                {
-                    "unit": "trader_heavy_cruiser",
-                    "weight": 20.0
-                },
-                {
-                    "unit": "trader_carrier_cruiser",
-                    "weight": 20.0
-                },
-                {
-                    "unit": "trader_antifighter_frigate",
-                    "weight": 10.0
-                },
-                {
-                    "unit": "trader_siege_frigate",
-                    "weight": 10.0
-                }]
             },
-            "supply": 300,
-            "cooldown": 120.0,
-            "spawn_at_gravity_well_count_percentage": 0.2
-        }
+            {
+                "value": 0.9,
+                "prerequisites": [
+                    ["advent_upgrade_culture_crystal_1"]
+                ]
+            }]
+        }]
     },
-    "find_npc_explore_prerequisites": [
-        ["trader_find_npc_explore"]
-    ],
     "wormhole_research": [
-        ["trader_wormhole_travel"]
+        ["advent_unlock_wormhole_travel"]
     ],
     "hyperspace_between_stars_research": [
-        ["trader_unlock_hyperspace_between_stars"]
+        ["advent_unlock_hyperspace_between_stars"]
     ],
     "buildable_exotics": [
     {
@@ -2988,83 +2573,15 @@
                 "crystal": 250.0
             },
             "factory_build_prerequisites": [
-                ["trader_unlock_build_ultimate_exotic"]
+                ["advent_unlock_build_ultimate_exotic"]
             ]
         }
     }],
-    "garrison":
+    "unity":
     {
-        "spawn_type": "build_from_factory",
-        "special_operation_unit_kind": "garrison",
-        "build_kinds": [
-        {
-            "build_kind": "corvette"
-        },
-        {
-            "build_kind": "frigate"
-        }],
-        "factory_build_time_scalar": 2.0,
-        "units":
-        {
-            "random_units": [
-            {
-                "unit": "trader_light_frigate",
-                "weight": 50.0
-            },
-            {
-                "unit": "trader_heavy_cruiser",
-                "weight": 20.0
-            },
-            {
-                "unit": "trader_long_range_cruiser",
-                "weight": 20.0
-            },
-            {
-                "unit": "trader_carrier_cruiser",
-                "weight": 10.0
-            },
-            {
-                "unit": "trader_skirmisher_corvette_frigate",
-                "weight": 50.0
-            },
-            {
-                "unit": "trader_antifighter_frigate",
-                "weight": 10.0
-            }]
-        },
-        "base_max_supply": 0
-    },
-    "trade":
-    {
-        "trade_income_rates":
-        {
-            "credits": 2.0,
-            "metal": 1.0,
-            "crystal": 1.0
-        },
-        "trade_ship_death_assets":
-        {
-            "credits": 250
-        },
-        "trade_ship_escorts": [
-        {
-            "unit": "trader_antifighter_frigate",
-            "special_operation_unit_kind": "trade_escort",
-            "count_per_trade_ship": 1,
-            "research_prerequisites": [
-                ["trader_unlock_trade_escorts_0"]
-            ],
-            "construction_time": 60
-        },
-        {
-            "unit": "trader_heavy_cruiser",
-            "special_operation_unit_kind": "trade_escort",
-            "count_per_trade_ship": 1,
-            "research_prerequisites": [
-                ["trader_unlock_trade_escorts_1"]
-            ],
-            "construction_time": 60
-        }]
+        "base_max_mana": 0.0,
+        "base_mana_restore_rate": 0.0,
+        "unity_agent": "advent_unity_agent"
     },
     "max_supply":
     {
@@ -3075,31 +2592,31 @@
         {
             "max_supply": 250,
             "prerequisites": [
-                ["trader_max_supply_0"]
+                ["advent_max_supply_0"]
             ]
         },
         {
             "max_supply": 500,
             "prerequisites": [
-                ["trader_max_supply_1"]
+                ["advent_max_supply_1"]
             ]
         },
         {
             "max_supply": 1000,
             "prerequisites": [
-                ["trader_max_supply_2"]
+                ["advent_max_supply_2"]
             ]
         },
         {
             "max_supply": 1500,
             "prerequisites": [
-                ["trader_max_supply_3"]
+                ["advent_max_supply_3"]
             ]
         },
         {
             "max_supply": 2000,
             "prerequisites": [
-                ["trader_max_supply_4"]
+                ["advent_max_supply_4"]
             ]
         }]
     },
@@ -3109,54 +2626,54 @@
         {
             "starting_experience": 200.0,
             "prerequisites": [
-                ["trader_capital_ship_starting_level_0"]
+                ["advent_capital_ship_starting_level_0"]
             ]
         },
         {
             "starting_experience": 700.0,
             "prerequisites": [
-                ["trader_capital_ship_starting_level_1"]
+                ["advent_capital_ship_starting_level_1"]
             ]
         }]
     },
     "gui":
     {
-        "hud_skin_name": "trader_hud_skin",
-        "race_name": "player_race_name.trader",
-        "race_description": "player_race_description.trader",
-        "faction_name": "player_faction_name.trader_rebel",
-        "faction_description": "player_faction_description.trader_rebel",
-        "faction_icon": "trader_rebel_faction_icon",
-        "load_screen_character_brush": "trader_load_screen_character",
-        "player_slot_plate": "trader_rebel_player_slot_plate"
+        "hud_skin_name": "advent_hud_skin",
+        "race_name": "player_race_name.advent",
+        "race_description": "player_race_description.advent",
+        "faction_name": "player_faction_name.advent_loyalist",
+        "faction_description": "player_faction_description.advent_loyalist",
+        "faction_icon": "advent_loyalist_faction_icon",
+        "load_screen_character_brush": "advent_load_screen_character",
+        "player_slot_plate": "advent_loyalist_player_slot_plate"
     },
     "unit_names": [
     {
         "group_name": "capital_ship",
         "localized_text":
         {
-            "id_prefix": "capital_ship_name.trader"
+            "id_prefix": "capital_ship_name.advent"
         }
     },
     {
         "group_name": "fleet",
         "localized_text":
         {
-            "id_prefix": "fleet_name.trader"
+            "id_prefix": "fleet_name.advent"
         }
     },
     {
         "group_name": "starbase",
         "localized_text":
         {
-            "id_prefix": "starbase_name.trader"
+            "id_prefix": "starbase_name.advent"
         }
     },
     {
         "group_name": "titan",
         "localized_text":
         {
-            "id_prefix": "titan_name.trader"
+            "id_prefix": "titan_name.advent"
         }
     }],
     "victory_gui":
@@ -3166,77 +2683,77 @@
             "military":
             {
                 "won_pictures": [
-                    "trader_victory_picture_0"
+                    "advent_victory_picture_0"
                 ],
                 "lost_pictures": [
-                    "trader_defeat_picture_0"
+                    "advent_defeat_picture_0"
                 ],
                 "won_texts": [
                 {
                     "status": "player_victory.status.military.won",
-                    "phrase": "player_victory.phrase.military.won.trader"
+                    "phrase": "player_victory.phrase.military.won.advent"
                 }],
                 "lost_texts": [
                 {
                     "status": "player_victory.status.military.lost",
-                    "phrase": "player_victory.phrase.military.lost.trader"
+                    "phrase": "player_victory.phrase.military.lost.advent"
                 }]
             },
             "home_planet":
             {
                 "won_pictures": [
-                    "trader_victory_picture_0"
+                    "advent_victory_picture_0"
                 ],
                 "lost_pictures": [
-                    "trader_defeat_picture_0"
+                    "advent_defeat_picture_0"
                 ],
                 "won_texts": [
                 {
                     "status": "player_victory.status.home_planet.won",
-                    "phrase": "player_victory.phrase.home_planet.won.trader"
+                    "phrase": "player_victory.phrase.home_planet.won.advent"
                 }],
                 "lost_texts": [
                 {
                     "status": "player_victory.status.home_planet.lost",
-                    "phrase": "player_victory.phrase.home_planet.lost.trader"
+                    "phrase": "player_victory.phrase.home_planet.lost.advent"
                 }]
             },
             "diplomatic":
             {
                 "won_pictures": [
-                    "trader_victory_picture_0"
+                    "advent_victory_picture_0"
                 ],
                 "lost_pictures": [
-                    "trader_defeat_picture_0"
+                    "advent_defeat_picture_0"
                 ],
                 "won_texts": [
                 {
                     "status": "player_victory.status.diplomatic.won",
-                    "phrase": "player_victory.phrase.diplomatic.won.trader"
+                    "phrase": "player_victory.phrase.diplomatic.won.advent"
                 }],
                 "lost_texts": [
                 {
                     "status": "player_victory.status.diplomatic.lost",
-                    "phrase": "player_victory.phrase.diplomatic.lost.trader"
+                    "phrase": "player_victory.phrase.diplomatic.lost.advent"
                 }]
             },
             "colonization":
             {
                 "won_pictures": [
-                    "trader_victory_picture_0"
+                    "advent_victory_picture_0"
                 ],
                 "lost_pictures": [
-                    "trader_defeat_picture_0"
+                    "advent_defeat_picture_0"
                 ],
                 "won_texts": [
                 {
                     "status": "player_victory.status.colonization.won",
-                    "phrase": "player_victory.phrase.colonization.won.trader"
+                    "phrase": "player_victory.phrase.colonization.won.advent"
                 }],
                 "lost_texts": [
                 {
                     "status": "player_victory.status.colonization.lost",
-                    "phrase": "player_victory.phrase.colonization.lost.trader"
+                    "phrase": "player_victory.phrase.colonization.lost.advent"
                 }]
             }
         }
@@ -3287,27 +2804,27 @@
             },
             "ping_received_attack":
             {
-                "sound": "trader_narrator_ping_received_attack",
+                "sound": "advent_narrator_ping_received_attack",
                 "is_dialogue": true
             },
             "ping_received_defend":
             {
-                "sound": "trader_narrator_ping_received_defend",
+                "sound": "advent_narrator_ping_received_defend",
                 "is_dialogue": true
             },
             "control_group_created":
             {
-                "sound": "trader_narrator_control_group_created",
+                "sound": "advent_narrator_control_group_created",
                 "is_dialogue": true
             },
             "civilian_research_subject_completed":
             {
-                "sound": "trader_narrator_civilian_research_subject_completed",
+                "sound": "advent_narrator_civilian_research_subject_completed",
                 "is_dialogue": true
             },
             "military_research_subject_completed":
             {
-                "sound": "trader_narrator_military_research_subject_completed",
+                "sound": "advent_narrator_military_research_subject_completed",
                 "is_dialogue": true
             },
             "victory_condition_alliance_guard_research_subject_completed":
@@ -3322,267 +2839,267 @@
             },
             "civilian_research_domain_tier_acquired":
             {
-                "sound": "trader_narrator_civilian_research_domain_tier_acquired",
+                "sound": "advent_narrator_civilian_research_domain_tier_acquired",
                 "is_dialogue": true
             },
             "military_research_domain_tier_acquired":
             {
-                "sound": "trader_narrator_military_research_domain_tier_acquired",
+                "sound": "advent_narrator_military_research_domain_tier_acquired",
                 "is_dialogue": true
             },
             "planet_being_bombed":
             {
-                "sound": "trader_narrator_planet_being_bombed",
+                "sound": "advent_narrator_planet_being_bombed",
                 "is_dialogue": true
             },
             "ally_planet_being_bombed":
             {
-                "sound": "trader_narrator_ally_planet_being_bombed",
+                "sound": "advent_narrator_ally_planet_being_bombed",
                 "is_dialogue": true
             },
             "planet_discovered":
             {
-                "sound": "trader_narrator_planet_discovered",
+                "sound": "advent_narrator_planet_discovered",
                 "is_dialogue": true
             },
             "planet_colonized":
             {
-                "sound": "trader_narrator_planet_colonized",
+                "sound": "advent_narrator_planet_colonized",
                 "is_dialogue": true
             },
             "planet_lost":
             {
-                "sound": "trader_narrator_planet_lost",
+                "sound": "advent_narrator_planet_lost",
                 "is_dialogue": true
             },
             "ally_planet_lost":
             {
-                "sound": "trader_narrator_ally_planet_lost",
+                "sound": "advent_narrator_ally_planet_lost",
                 "is_dialogue": true
             },
             "capital_planet_changed":
             {
-                "sound": "trader_narrator_capital_planet_changed",
+                "sound": "advent_narrator_capital_planet_changed",
                 "is_dialogue": true
             },
             "capital_planet_being_bombed":
             {
-                "sound": "trader_narrator_capital_planet_being_bombed",
+                "sound": "advent_narrator_capital_planet_being_bombed",
                 "is_dialogue": true
             },
             "ally_capital_planet_being_bombed":
             {
-                "sound": "trader_narrator_ally_capital_planet_being_bombed",
+                "sound": "advent_narrator_ally_capital_planet_being_bombed",
                 "is_dialogue": true
             },
             "capital_planet_nearly_lost":
             {
-                "sound": "trader_narrator_capital_planet_nearly_lost",
+                "sound": "advent_narrator_capital_planet_nearly_lost",
                 "is_dialogue": true
             },
             "capital_planet_lost":
             {
-                "sound": "trader_narrator_capital_planet_lost",
+                "sound": "advent_narrator_capital_planet_lost",
                 "is_dialogue": true
             },
             "ally_capital_planet_lost":
             {
-                "sound": "trader_narrator_ally_capital_planet_lost",
+                "sound": "advent_narrator_ally_capital_planet_lost",
                 "is_dialogue": true
             },
             "enemy_capital_planet_lost":
             {
-                "sound": "trader_narrator_enemy_capital_planet_lost",
+                "sound": "advent_narrator_enemy_capital_planet_lost",
                 "is_dialogue": true
             },
             "player_won":
             {
-                "sound": "trader_narrator_player_won",
+                "sound": "advent_narrator_player_won",
                 "is_dialogue": true
             },
             "player_won_diplomatic":
             {
-                "sound": "trader_narrator_player_won_diplomatic",
+                "sound": "advent_narrator_player_won_diplomatic",
                 "is_dialogue": true
             },
             "player_lost":
             {
-                "sound": "trader_narrator_player_lost",
+                "sound": "advent_narrator_player_lost",
                 "is_dialogue": true
             },
             "ally_player_lost":
             {
-                "sound": "trader_narrator_ally_player_lost",
+                "sound": "advent_narrator_ally_player_lost",
                 "is_dialogue": true
             },
             "enemy_player_lost":
             {
-                "sound": "trader_narrator_enemy_player_lost",
+                "sound": "advent_narrator_enemy_player_lost",
                 "is_dialogue": true
             },
             "enemy_player_lost_by_player":
             {
-                "sound": "trader_narrator_enemy_player_lost_by_player",
+                "sound": "advent_narrator_enemy_player_lost_by_player",
                 "is_dialogue": true
             },
             "nothing_surveyed":
             {
-                "sound": "trader_narrator_nothing_surveyed",
+                "sound": "advent_narrator_nothing_surveyed",
                 "is_dialogue": true
             },
             "exotics_surveyed":
             {
-                "sound": "trader_narrator_exotics_surveyed",
+                "sound": "advent_narrator_exotics_surveyed",
                 "is_dialogue": true
             },
             "planet_artifact_surveyed":
             {
-                "sound": "trader_narrator_planet_artifact_surveyed",
+                "sound": "advent_narrator_planet_artifact_surveyed",
                 "is_dialogue": true
             },
             "planet_bonus_surveyed":
             {
-                "sound": "trader_narrator_planet_bonus_surveyed",
+                "sound": "advent_narrator_planet_bonus_surveyed",
                 "is_dialogue": true
             },
             "planet_track_upgrade_defense_completed":
             {
-                "sound": "trader_narrator_planet_track_upgrade_defense_completed",
+                "sound": "advent_narrator_planet_track_upgrade_defense_completed",
                 "is_dialogue": true
             },
             "planet_track_upgrade_logistics_completed":
             {
-                "sound": "trader_narrator_planet_track_upgrade_logistics_completed",
+                "sound": "advent_narrator_planet_track_upgrade_logistics_completed",
                 "is_dialogue": true
             },
             "planet_track_upgrade_commerce_completed":
             {
-                "sound": "trader_narrator_planet_track_upgrade_commerce_completed",
+                "sound": "advent_narrator_planet_track_upgrade_commerce_completed",
                 "is_dialogue": true
             },
             "planet_track_upgrade_mining_completed":
             {
-                "sound": "trader_narrator_planet_track_upgrade_mining_completed",
+                "sound": "advent_narrator_planet_track_upgrade_mining_completed",
                 "is_dialogue": true
             },
             "planet_track_upgrade_research_completed":
             {
-                "sound": "trader_narrator_planet_track_upgrade_research_completed",
+                "sound": "advent_narrator_planet_track_upgrade_research_completed",
                 "is_dialogue": true
             },
             "planet_component_finished_building":
             {
-                "sound": "trader_narrator_planet_component_finished_building",
+                "sound": "advent_narrator_planet_component_finished_building",
                 "is_dialogue": true
             },
             "orbital_cannon_shell_detected":
             {
-                "sound": "trader_narrator_orbital_cannon_shell_detected",
+                "sound": "advent_narrator_orbital_cannon_shell_detected",
                 "is_dialogue": true
             },
             "enemy_units_incoming":
             {
-                "sound": "trader_narrator_enemy_units_incoming",
+                "sound": "advent_narrator_enemy_units_incoming",
                 "is_dialogue": true
             },
             "enemy_units_arrived":
             {
-                "sound": "trader_narrator_enemy_units_arrived",
+                "sound": "advent_narrator_enemy_units_arrived",
                 "is_dialogue": true
             },
             "enemy_planet_made_dead_from_bombing":
             {
-                "sound": "trader_narrator_enemy_planet_made_dead_from_bombing",
+                "sound": "advent_narrator_enemy_planet_made_dead_from_bombing",
                 "is_dialogue": true
             },
             "pirate_units_arrived":
             {
-                "sound": "trader_narrator_pirate_units_arrived",
+                "sound": "advent_narrator_pirate_units_arrived",
                 "is_dialogue": true
             },
             "ally_special_operations_units_arrived":
             {
-                "sound": "trader_narrator_ally_special_operations_units_arrived",
+                "sound": "advent_narrator_ally_special_operations_units_arrived",
                 "is_dialogue": true
             },
             "enemy_special_operations_units_arrived":
             {
-                "sound": "trader_narrator_enemy_special_operations_units_arrived",
+                "sound": "advent_narrator_enemy_special_operations_units_arrived",
                 "is_dialogue": true
             },
             "insufficient_credits":
             {
-                "sound": "trader_narrator_insufficient_credits",
+                "sound": "advent_narrator_insufficient_credits",
                 "is_dialogue": true
             },
             "insufficient_metal":
             {
-                "sound": "trader_narrator_insufficient_metal",
+                "sound": "advent_narrator_insufficient_metal",
                 "is_dialogue": true
             },
             "insufficient_crystal":
             {
-                "sound": "trader_narrator_insufficient_crystal",
+                "sound": "advent_narrator_insufficient_crystal",
                 "is_dialogue": true
             },
             "insufficient_civilian_structure_slots":
             {
-                "sound": "trader_narrator_insufficient_civilian_structure_slots",
+                "sound": "advent_narrator_insufficient_civilian_structure_slots",
                 "is_dialogue": true
             },
             "insufficient_civilian_structure_slots_at_max":
             {
-                "sound": "trader_narrator_insufficient_civilian_structure_slots_at_max",
+                "sound": "advent_narrator_insufficient_civilian_structure_slots_at_max",
                 "is_dialogue": true
             },
             "insufficient_military_structure_slots":
             {
-                "sound": "trader_narrator_insufficient_military_structure_slots",
+                "sound": "advent_narrator_insufficient_military_structure_slots",
                 "is_dialogue": true
             },
             "insufficient_military_structure_slots_at_max":
             {
-                "sound": "trader_narrator_insufficient_military_structure_slots_at_max",
+                "sound": "advent_narrator_insufficient_military_structure_slots_at_max",
                 "is_dialogue": true
             },
             "insufficient_unit_supply":
             {
-                "sound": "trader_narrator_insufficient_unit_supply",
+                "sound": "advent_narrator_insufficient_unit_supply",
                 "is_dialogue": true
             },
             "insufficient_unit_supply_at_max_supply":
             {
-                "sound": "trader_narrator_insufficient_unit_supply_at_max_supply",
+                "sound": "advent_narrator_insufficient_unit_supply_at_max_supply",
                 "is_dialogue": true
             },
             "insufficient_antimatter":
             {
-                "sound": "trader_narrator_insufficient_antimatter",
+                "sound": "advent_narrator_insufficient_antimatter",
                 "is_dialogue": true
             },
             "research_prerequisites_not_met":
             {
-                "sound": "trader_research_prerequisites_not_met",
+                "sound": "advent_research_prerequisites_not_met",
                 "is_dialogue": true
             },
             "wormhole_travel_research_prerequisites_not_met":
             {
-                "sound": "trader_research_prerequisites_not_met",
+                "sound": "advent_research_prerequisites_not_met",
                 "is_dialogue": true
             },
             "insufficient_civilian_research_points":
             {
-                "sound": "trader_narrator_insufficient_civilian_research_points",
+                "sound": "advent_narrator_insufficient_civilian_research_points",
                 "is_dialogue": true
             },
             "insufficient_military_research_points":
             {
-                "sound": "trader_narrator_insufficient_military_research_points",
+                "sound": "advent_narrator_insufficient_military_research_points",
                 "is_dialogue": true
             },
             "position_has_overlapped_unit":
             {
-                "sound": "trader_narrator_position_has_overlapped_unit",
+                "sound": "advent_narrator_position_has_overlapped_unit",
                 "is_dialogue": true
             },
             "click_failed":
@@ -3602,17 +3119,17 @@
             },
             "generic_cannot_hyperspace":
             {
-                "sound": "trader_narrator_generic_cannot_hyperspace",
+                "sound": "advent_narrator_generic_cannot_hyperspace",
                 "is_dialogue": true
             },
             "generic_joined_fleet":
             {
-                "sound": "trader_narrator_generic_joined_fleet",
+                "sound": "advent_narrator_generic_joined_fleet",
                 "is_dialogue": true
             },
             "fleet_created":
             {
-                "sound": "trader_narrator_fleet_created",
+                "sound": "advent_narrator_fleet_created",
                 "is_dialogue": true
             },
             "sell_npc_market_asset":
@@ -3627,102 +3144,102 @@
             },
             "npc_metal_market_exclusive_player_started_positive":
             {
-                "sound": "trader_narrator_npc_metal_market_exclusive_player_started_positive",
+                "sound": "advent_narrator_npc_metal_market_exclusive_player_started_positive",
                 "is_dialogue": true
             },
             "npc_metal_market_exclusive_player_started_negative":
             {
-                "sound": "trader_narrator_npc_metal_market_exclusive_player_started_negative",
+                "sound": "advent_narrator_npc_metal_market_exclusive_player_started_negative",
                 "is_dialogue": true
             },
             "npc_crystal_market_exclusive_player_started_positive":
             {
-                "sound": "trader_narrator_npc_crystal_market_exclusive_player_started_positive",
+                "sound": "advent_narrator_npc_crystal_market_exclusive_player_started_positive",
                 "is_dialogue": true
             },
             "npc_crystal_market_exclusive_player_started_negative":
             {
-                "sound": "trader_narrator_npc_crystal_market_exclusive_player_started_negative",
+                "sound": "advent_narrator_npc_crystal_market_exclusive_player_started_negative",
                 "is_dialogue": true
             },
             "ally_capital_ship_destroyed":
             {
-                "sound": "trader_narrator_ally_capital_ship_destroyed",
+                "sound": "advent_narrator_ally_capital_ship_destroyed",
                 "is_dialogue": true
             },
             "ally_starbase_destroyed":
             {
-                "sound": "trader_narrator_ally_starbase_destroyed",
+                "sound": "advent_narrator_ally_starbase_destroyed",
                 "is_dialogue": true
             },
             "ally_titan_destroyed":
             {
-                "sound": "trader_narrator_ally_titan_destroyed",
+                "sound": "advent_narrator_ally_titan_destroyed",
                 "is_dialogue": true
             },
             "ally_titan_built":
             {
-                "sound": "trader_narrator_ally_titan_built",
+                "sound": "advent_narrator_ally_titan_built",
                 "is_dialogue": true
             },
             "enemy_titan_built":
             {
-                "sound": "trader_narrator_enemy_titan_built",
+                "sound": "advent_narrator_enemy_titan_built",
                 "is_dialogue": true
             },
             "military_structure_built":
             {
-                "sound": "trader_narrator_military_structure_built",
+                "sound": "advent_narrator_military_structure_built",
                 "is_dialogue": true
             },
             "civilian_structure_built":
             {
-                "sound": "trader_narrator_civilian_structure_built",
+                "sound": "advent_narrator_civilian_structure_built",
                 "is_dialogue": true
             },
             "enemy_phase_jump_inhibitor_built":
             {
-                "sound": "trader_narrator_enemy_phase_jump_inhibitor_built",
+                "sound": "advent_narrator_enemy_phase_jump_inhibitor_built",
                 "is_dialogue": true
             },
             "player_units_arrived_at_enemy_phase_jump_inhibitor":
             {
-                "sound": "trader_narrator_player_units_arrived_at_enemy_phase_jump_inhibitor",
+                "sound": "advent_narrator_player_units_arrived_at_enemy_phase_jump_inhibitor",
                 "is_dialogue": true
             },
             "fleet_arrived":
             {
-                "sound": "trader_narrator_fleet_arrived",
+                "sound": "advent_narrator_fleet_arrived",
                 "is_dialogue": true
             },
             "ally_fleet_arrived":
             {
-                "sound": "trader_narrator_ally_fleet_arrived",
+                "sound": "advent_narrator_ally_fleet_arrived",
                 "is_dialogue": true
             },
             "reinforcing_fleet_arrived":
             {
-                "sound": "trader_narrator_reinforcing_fleet_arrived",
+                "sound": "advent_narrator_reinforcing_fleet_arrived",
                 "is_dialogue": true
             },
             "ally_reinforcing_fleet_arrived":
             {
-                "sound": "trader_narrator_ally_reinforcing_fleet_arrived",
+                "sound": "advent_narrator_ally_reinforcing_fleet_arrived",
                 "is_dialogue": true
             },
             "ally_reinforcing_fleet_incoming":
             {
-                "sound": "trader_narrator_ally_reinforcing_fleet_incoming",
+                "sound": "advent_narrator_ally_reinforcing_fleet_incoming",
                 "is_dialogue": true
             },
             "fleet_under_attack":
             {
-                "sound": "trader_narrator_fleet_under_attack",
+                "sound": "advent_narrator_fleet_under_attack",
                 "is_dialogue": true
             },
             "ally_fleet_under_attack":
             {
-                "sound": "trader_narrator_ally_fleet_under_attack",
+                "sound": "advent_narrator_ally_fleet_under_attack",
                 "is_dialogue": true
             },
             "destroy_planet_started":
@@ -3737,83 +3254,83 @@
             },
             "game_paused":
             {
-                "sound": "trader_narrator_game_paused",
+                "sound": "advent_narrator_game_paused",
                 "is_dialogue": true
             },
             "game_unpaused":
             {
-                "sound": "trader_narrator_game_unpaused",
+                "sound": "advent_narrator_game_unpaused",
                 "is_dialogue": true
             },
             "small_unit_factory_needed":
             {
-                "sound": "trader_narrator_small_unit_factory_needed",
+                "sound": "advent_narrator_small_unit_factory_needed",
                 "is_dialogue": true
             },
             "medium_unit_factory_needed":
             {
-                "sound": "trader_narrator_medium_unit_factory_needed",
+                "sound": "advent_narrator_medium_unit_factory_needed",
                 "is_dialogue": true
             },
             "large_unit_factory_needed":
             {
-                "sound": "trader_narrator_large_unit_factory_needed",
-                "is_dialogue": true
+                "sound": "ui_default_error",
+                "is_dialogue": false
             },
             "insufficient_offense_exotics":
             {
-                "sound": "trader_narrator_insufficient_offense_exotics",
+                "sound": "advent_narrator_insufficient_offense_exotics",
                 "is_dialogue": true
             },
             "insufficient_defense_exotics":
             {
-                "sound": "trader_narrator_insufficient_defense_exotics",
+                "sound": "advent_narrator_insufficient_defense_exotics",
                 "is_dialogue": true
             },
             "insufficient_utility_exotics":
             {
-                "sound": "trader_narrator_insufficient_utility_exotics",
+                "sound": "advent_narrator_insufficient_utility_exotics",
                 "is_dialogue": true
             },
             "insufficient_economic_exotics":
             {
-                "sound": "trader_narrator_insufficient_economic_exotics",
+                "sound": "advent_narrator_insufficient_economic_exotics",
                 "is_dialogue": true
             },
             "insufficient_ultimate_exotics":
             {
-                "sound": "trader_narrator_insufficient_ultimate_exotics",
+                "sound": "advent_narrator_insufficient_ultimate_exotics",
                 "is_dialogue": true
             },
             "insufficient_generic_exotics":
             {
-                "sound": "trader_narrator_insufficient_generic_exotics",
+                "sound": "advent_narrator_insufficient_generic_exotics",
                 "is_dialogue": true
             },
             "scuttle_planet_started":
             {
-                "sound": "trader_narrator_scuttle_planet_started",
+                "sound": "advent_narrator_scuttle_planet_started",
                 "is_dialogue": true
             },
             "scuttle_unit_started":
             {
-                "sound": "trader_narrator_scuttle_unit_started",
+                "sound": "advent_narrator_scuttle_unit_started",
                 "is_dialogue": true
             },
             "insufficient_unity_points":
             {
-                "sound": "ui_default_error",
-                "is_dialogue": false
+                "sound": "advent_narrator_insufficient_unity_points",
+                "is_dialogue": true
             },
             "insufficient_unity_mana":
             {
-                "sound": "ui_default_error",
-                "is_dialogue": false
+                "sound": "advent_narrator_insufficient_unity_mana",
+                "is_dialogue": true
             },
             "unity_ability_cooldown_is_not_completed":
             {
-                "sound": "ui_default_error",
-                "is_dialogue": false
+                "sound": "advent_narrator_unity_ability_cooldown_is_not_completed",
+                "is_dialogue": true
             },
             "player_added_first_ruler_ship":
             {
@@ -3822,22 +3339,22 @@
             },
             "planet_conversion_started":
             {
-                "sound": "trader_narrator_planet_conversion_started",
+                "sound": "advent_narrator_planet_conversion_started",
                 "is_dialogue": true
             },
             "planet_conversion_colonized":
             {
-                "sound": "ui_default_error",
-                "is_dialogue": false
+                "sound": "advent_narrator_planet_conversion_colonized",
+                "is_dialogue": true
             },
             "alliance_offered_cease_fire":
             {
-                "sound": "trader_narrator_alliance_offered_cease_fire",
+                "sound": "advent_narrator_alliance_offered_cease_fire",
                 "is_dialogue": true
             },
             "alliance_offered_share_vision":
             {
-                "sound": "trader_narrator_alliance_offered_share_vision",
+                "sound": "advent_narrator_alliance_offered_share_vision_aggressive",
                 "is_dialogue": true
             },
             "alliance_offered_synergy":
@@ -3847,12 +3364,12 @@
             },
             "alliance_accepted_cease_fire":
             {
-                "sound": "trader_narrator_alliance_accepted_cease_fire",
+                "sound": "advent_narrator_alliance_accepted_cease_fire",
                 "is_dialogue": true
             },
             "alliance_accepted_share_vision":
             {
-                "sound": "trader_narrator_alliance_accepted_share_vision",
+                "sound": "advent_narrator_alliance_accepted_share_vision",
                 "is_dialogue": true
             },
             "alliance_accepted_synergy":
@@ -3862,12 +3379,12 @@
             },
             "alliance_broken_cease_fire":
             {
-                "sound": "trader_narrator_alliance_broken_cease_fire",
+                "sound": "advent_narrator_alliance_broken_cease_fire",
                 "is_dialogue": true
             },
             "alliance_offered_share_vision_aggressive":
             {
-                "sound": "trader_narrator_alliance_offered_share_vision_aggressive",
+                "sound": "advent_narrator_alliance_offered_share_vision_aggressive",
                 "is_dialogue": true
             },
             "alliance_offered_synergy_aggressive":
@@ -3877,7 +3394,7 @@
             },
             "alliance_accepted_share_vision_aggressive":
             {
-                "sound": "trader_narrator_alliance_accepted_share_vision_aggressive",
+                "sound": "advent_narrator_alliance_accepted_share_vision_aggressive",
                 "is_dialogue": true
             },
             "alliance_accepted_synergy_aggressive":
@@ -3887,12 +3404,12 @@
             },
             "alliance_broken_cease_fire_aggressive":
             {
-                "sound": "trader_narrator_alliance_broken_cease_fire_aggressive",
+                "sound": "advent_narrator_alliance_broken_cease_fire_aggressive",
                 "is_dialogue": true
             },
             "artifact_captured":
             {
-                "sound": "trader_narrator_artifact_captured",
+                "sound": "advent_narrator_artifact_captured",
                 "is_dialogue": true
             }
         },
@@ -3915,14 +3432,14 @@
         },
         {
             "build_kind": "titan",
-            "sound_id": "large_unit_factory_needed"
+            "sound_id": "medium_unit_factory_needed"
         }]
     },
     "ai":
     {
         "names":
         {
-            "id_prefix": "player_ai_name.trader."
+            "id_prefix": "player_ai_name.advent."
         },
         "alliance_offer_decline_reasons":
         {
@@ -3939,33 +3456,10 @@
             "trade_is_not_reasonable": "player_ai_alliance_offer_decline_reason.trade_is_not_reasonable"
         }
     },
-    "planet_elevators":
-    {
-        "elevator_meshes": [
-            "space_elevator"
-        ],
-        "starting_elevator_count": 3,
-        "per_level_elevator_count": 0.4,
-        "explosion_effect": "explosion_frigate",
-        "explosion_sound": "explosion_frigateshipdeath",
-        "car_count_per_elevator_connection": 35,
-        "car_max_travel_time": 80.0,
-        "car_max_travel_time_offset": 20.0,
-        "car_tangent_offset_distance": 2.0,
-        "car_path_count": 250,
-        "car_path_min_t_delta": 0.4,
-        "cars_texture_animation": "planet_elevator_cars_trader",
-        "car_width": 40.0,
-        "car_height": 64.0,
-        "car_basic_constants":
-        {
-            "emissive_factor": 0.1
-        }
-    },
     "theme_picker_mesh_preview_units": [
-        "trader_civilian_research_lab_structure",
-        "trader_colony_capital_ship",
-        "trader_skirmisher_corvette_frigate"
+        "advent_battle_capital_ship",
+        "advent_light_frigate",
+        "advent_starbase"
     ],
     "theme_picker_skybox": "skybox_cloud_16"
 }
