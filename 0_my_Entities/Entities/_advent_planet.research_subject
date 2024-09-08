@@ -62,107 +62,107 @@
     {
         "modifier_type": "defense_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "defense_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "surveying_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "surveying_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "research_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "research_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "any_development_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "planet_component_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "structure_build_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "factory_unit_build_price",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "structure_build_time",
         "value_behavior": "scalar",
-        "value": -0.5
+        "value": -0.9
     },
     {
         "modifier_type": "commerce_track_credit_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "orbital_extraction_crystal_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "orbital_extraction_metal_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "mining_track_crystal_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "mining_track_metal_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "mining_track_crystal_income_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "culture_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "culture_resistance_rate",
         "value_behavior": "scalar",
-        "value": 0.5
+        "value": 1
     },
     {
         "modifier_type": "max_military_structure_slots",
         "value_behavior": "additive",
-        "value": 40.0
+        "value": 50.0
     },
     {
         "modifier_type": "max_civilian_structure_slots",
         "value_behavior": "additive",
-        "value": 40.0
+        "value": 50.0
     }
     ],
     "name": "advent_max_supply_0_research_subject_name",
