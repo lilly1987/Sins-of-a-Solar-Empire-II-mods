@@ -849,7 +849,8 @@
             }
         },
         "research_subjects": [
-            
+            "_advent_ship",
+            "_advent_planet",
             "advent_capital_ship_starting_level_0",
             "advent_capital_ship_starting_level_1",
             "advent_culture_phase_lane_detection_0",

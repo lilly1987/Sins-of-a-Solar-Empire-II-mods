@@ -1,5 +1,10 @@
 {
     "ids": [        
-        "_trader_ship"
+        "_advent_planet",
+        "_trader_planet",
+        "_vasari_planet",
+        "_advent_ship",
+        "_trader_ship",
+        "_vasari_ship"
     ]
 }

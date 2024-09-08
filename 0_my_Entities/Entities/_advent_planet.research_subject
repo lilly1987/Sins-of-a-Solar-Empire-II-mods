@@ -1,0 +1,75 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 0,
+    "field": "military_ascension",
+    "field_coord": [0, 2],
+    "research_time": 1.0,
+    "price":
+    {
+        "credits": 1000000.0,
+        "metal": 1000000.0,
+        "crystal": 1000000.0
+    },
+    "exotic_price": [
+    {
+        "exotic_type": "ultimate",
+        "count": 1000
+    },
+    {
+        "exotic_type": "defense",
+        "count": 1000
+    },
+    {
+        "exotic_type": "utility",
+        "count": 1000
+    },
+    {
+        "exotic_type": "economic",
+        "count": 1000
+    },
+    {
+        "exotic_type": "offense",
+        "count": 1000
+    }
+    ],
+    "planet_type_groups": [
+    {
+        "planet_types": [
+            "asteroid",
+            "crystalline",
+            "desert",
+            "ferrous",
+            "gas_giant",
+            "ice",
+            "moon",
+            "oceanic",
+            "swamp",
+            "terran",
+            "volcanic",
+            "pirate_base"
+        ]
+    }],
+    "planet_modifiers": [ 
+    {
+        "modifier_type": "culture_resistance_rate",
+        "value_behavior": "additive",
+        "value": 0.5
+    },
+    {
+        "modifier_type": "max_military_structure_slots",
+        "value_behavior": "additive",
+        "value": 40.0
+    },
+    {
+        "modifier_type": "max_civilian_structure_slots",
+        "value_behavior": "additive",
+        "value": 40.0
+    }
+    ],
+    "name": "advent_max_supply_0_research_subject_name",
+    "name_uppercase": "advent_max_supply_0_research_subject_name_uppercase",
+    "description": "advent_max_supply_0_research_subject_description",
+    "hud_icon": "advent_max_supply_0_research_subject_hud_icon",
+    "tooltip_picture": "advent_max_supply_0_research_subject_tooltip_picture"
+}
