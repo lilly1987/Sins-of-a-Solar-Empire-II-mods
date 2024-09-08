@@ -35,9 +35,29 @@
     ],
     "planet_modifiers": [ 
     {
+        "modifier_type": "bombing_damage_taken",
+        "value_behavior": "scalar",
+        "value": -1.0
+    },
+    {
+        "modifier_type": "military_research_points",
+        "value_behavior": "scalar",
+        "value": 9.0
+    },
+    {
+        "modifier_type": "civilian_research_points",
+        "value_behavior": "scalar",
+        "value": 9.0
+    },
+    {
+        "modifier_type": "max_health_points",
+        "value_behavior": "scalar",
+        "value": 9.0
+    },
+    {
         "modifier_type": "health_points_restore_rate",
         "value_behavior": "scalar",
-        "value": 1.0
+        "value": 9.0
     },
     {
         "modifier_type": "defense_track_build_price",
@@ -88,11 +108,6 @@
         "modifier_type": "factory_unit_build_price",
         "value_behavior": "scalar",
         "value": -0.5
-    },
-    {
-        "modifier_type": "bombing_damage_taken",
-        "value_behavior": "scalar",
-        "value": -0.875
     },
     {
         "modifier_type": "structure_build_time",

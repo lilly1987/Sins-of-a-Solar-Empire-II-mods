@@ -50,17 +50,17 @@
     {
         "modifier_type": "experience_gained_from_loot_collection",
         "value_behavior": "scalar",
-        "values": [1]
+        "values": [9.0]
     },
     {
         "modifier_type": "experience_gained_from_unit_death",
         "value_behavior": "scalar",
-        "values": [1]
+        "values": [9.0]
     },
     {
         "modifier_type": "experience_gained_from_planet_bombing",
         "value_behavior": "scalar",
-        "values": [1]
+        "values": [9.0]
     },
     {
         "modifier_type": "armor_strength",
@@ -89,13 +89,13 @@
     },
     {
         "modifier_type": "max_hull_points",
-        "value_behavior": "additive",
-        "values": [1000000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
     {
         "modifier_type": "hull_point_restore_rate",
-        "value_behavior": "additive",
-        "values": [1000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
     {
         "modifier_type": "max_armor_points",
@@ -104,29 +104,29 @@
     },
     {
         "modifier_type": "armor_point_restore_rate",
-        "value_behavior": "additive",
-        "values": [1000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
 
     {
         "modifier_type": "max_shield_points",
-        "value_behavior": "additive",
-        "values": [1000000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
     {
         "modifier_type": "shield_point_restore_rate",
-        "value_behavior": "additive",
-        "values": [1000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
     {
         "modifier_type": "armor_point_restore_cooldown_duration_after_damage_taken",
         "value_behavior": "scalar",
-        "values": [-0.5]
+        "values": [-1.0]
     },
     {
         "modifier_type": "ability_cooldown_duration",
         "value_behavior": "scalar",
-        "values": [-0.5]
+        "values": [-1.0]
     },
     {
         "modifier_type": "ability_antimatter_cost",
@@ -135,13 +135,13 @@
     },
     {
         "modifier_type": "antimatter_restore_rate",
-        "value_behavior": "additive",
-        "values": [1000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     },
     {
         "modifier_type": "max_antimatter",
-        "value_behavior": "additive",
-        "values": [1000000.0]
+        "value_behavior": "scalar",
+        "values": [9.0]
     }
     ]
 }
