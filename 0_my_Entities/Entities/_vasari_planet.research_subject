@@ -33,27 +33,120 @@
         "count": 1000
     }
     ],
-    "planet_type_groups": [
-    {
-        "planet_types": [
-            "asteroid",
-            "crystalline",
-            "desert",
-            "ferrous",
-            "gas_giant",
-            "ice",
-            "moon",
-            "oceanic",
-            "swamp",
-            "terran",
-            "volcanic",
-            "pirate_base"
-        ]
-    }],
     "planet_modifiers": [ 
     {
-        "modifier_type": "culture_resistance_rate",
+        "modifier_type": "civilian_research_points",
         "value_behavior": "additive",
+        "value": 25.0
+    },
+    {
+        "modifier_type": "max_health_points",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "health_points_restore_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "defense_track_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "defense_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "surveying_track_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "surveying_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "research_track_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "research_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "any_development_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "planet_component_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "structure_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "factory_unit_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "bombing_damage_taken",
+        "value_behavior": "scalar",
+        "value": -0.875
+    },
+    {
+        "modifier_type": "structure_build_time",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "commerce_track_credit_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "orbital_extraction_crystal_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "orbital_extraction_metal_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "mining_track_crystal_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "mining_track_metal_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "mining_track_crystal_income_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "culture_rate",
+        "value_behavior": "scalar",
+        "value": 1.0
+    },
+    {
+        "modifier_type": "culture_resistance_rate",
+        "value_behavior": "scalar",
         "value": 0.5
     },
     {

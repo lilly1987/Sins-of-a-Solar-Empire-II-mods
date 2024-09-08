@@ -43,6 +43,26 @@
     "build_group_id": "defense",
     "unit_modifiers": [ 
     {
+        "modifier_type": "loot_collection_duration",
+        "value_behavior": "scalar",
+        "values": [-1]
+    },
+    {
+        "modifier_type": "experience_gained_from_loot_collection",
+        "value_behavior": "scalar",
+        "values": [1]
+    },
+    {
+        "modifier_type": "experience_gained_from_unit_death",
+        "value_behavior": "scalar",
+        "values": [1]
+    },
+    {
+        "modifier_type": "experience_gained_from_planet_bombing",
+        "value_behavior": "scalar",
+        "values": [1]
+    },
+    {
         "modifier_type": "armor_strength",
         "value_behavior": "additive",
         "values": [10000.0]
@@ -97,6 +117,21 @@
         "modifier_type": "shield_point_restore_rate",
         "value_behavior": "additive",
         "values": [1000.0]
+    },
+    {
+        "modifier_type": "armor_point_restore_cooldown_duration_after_damage_taken",
+        "value_behavior": "scalar",
+        "values": [-0.5]
+    },
+    {
+        "modifier_type": "ability_cooldown_duration",
+        "value_behavior": "scalar",
+        "values": [-0.5]
+    },
+    {
+        "modifier_type": "ability_antimatter_cost",
+        "value_behavior": "scalar",
+        "values": [-0.5]
     },
     {
         "modifier_type": "antimatter_restore_rate",
