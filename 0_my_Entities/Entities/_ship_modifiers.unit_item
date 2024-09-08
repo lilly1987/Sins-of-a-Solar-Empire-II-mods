@@ -43,6 +43,31 @@
     "build_group_id": "defense",
     "unit_modifiers": [ 
     {
+        "modifier_type": "armor_strength",
+        "value_behavior": "additive",
+        "values": [10000.0]
+    },
+    {
+        "modifier_type": "hyperspace_charge_time",
+        "value_behavior": "scalar",
+        "values": [-1]
+    },
+    {
+        "modifier_type": "max_linear_speed",
+        "value_behavior": "additive",
+        "values": [10000.0]
+    },
+    {
+        "modifier_type": "max_linear_acceleration",
+        "value_behavior": "additive",
+        "values": [10000.0]
+    },
+    {
+        "modifier_type": "max_angular_speed",
+        "value_behavior": "additive",
+        "values": [10000.0]
+    },
+    {
         "modifier_type": "max_hull_points",
         "value_behavior": "additive",
         "values": [1000000.0]
@@ -62,11 +87,7 @@
         "value_behavior": "additive",
         "values": [1000.0]
     },
-    {
-        "modifier_type": "armor_strength",
-        "value_behavior": "additive",
-        "value": [1000.0]
-    },
+
     {
         "modifier_type": "max_shield_points",
         "value_behavior": "additive",
