@@ -1,0 +1,17 @@
+{
+    "ids": [
+        "_my_asteroid_planet",
+        "_my_crystalline_planet",
+        "_my_desert_planet",
+        "_my_ferrous_planet",
+        "_my_gas_giant_planet",
+        "_my_ice_planet",
+        "_my_moon_planet",
+        "_my_oceanic_planet",
+        "_my_pirate_base_planet",
+        "_my_swamp_planet",
+        "_my_terran_planet",
+        "_my_volcanic_planet",
+        "my_planet"
+    ]
+}
