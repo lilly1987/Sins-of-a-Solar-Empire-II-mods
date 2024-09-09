@@ -1049,7 +1049,7 @@
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
-        "_ship_modifiers",
+        "_item_ship_modifiers",
         "trader_missile_armor",
         "trader_capital_ship_insurance",
         "trader_salvage_kit",

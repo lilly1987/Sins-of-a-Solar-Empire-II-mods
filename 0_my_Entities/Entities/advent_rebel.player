@@ -1035,7 +1035,7 @@
     },
     "missing_ship_component_shop_build_time_scalar": 10.0,
     "ship_components": [
-        "_ship_modifiers",
+        "_item_ship_modifiers",
         "advent_antimatter_pod",
         "advent_psionic_adepts",
         "advent_energy_booster",
