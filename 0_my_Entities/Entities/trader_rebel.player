@@ -841,8 +841,8 @@
             }
         },
         "research_subjects": [
-            "_trader_ship",
-            "_trader_planet",
+            "_ship_trader",
+            "_planet_trader",
             "trader_antimatter_0",
             "trader_antimatter_1",
             "trader_asteroid_planet_credit_rate",

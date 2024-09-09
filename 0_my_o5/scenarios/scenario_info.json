@@ -5,5 +5,6 @@
     "desired_player_slots_configuration": {
         "player_count": 10,
         "team_count": 0
-    }
+    },
+    "has_wormholes": true
 }

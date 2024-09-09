@@ -49,6 +49,20 @@
             "name": "random_10_player_home_planet_moons",
             "filling": {
                 "moons": [
+                    {
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": false,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": false,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "planet_offset": [50.0, 50.0],
+                        "counts": [
+                            {
+                                "count": 0,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
                 ]
             }
         }

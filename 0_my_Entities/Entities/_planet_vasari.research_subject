@@ -2,8 +2,8 @@
     "version": 0,
     "domain": "military",
     "tier": 0,
-    "field": "military_ascension",
-    "field_coord": [0, 3],
+    "field": "military_revival",
+    "field_coord": [0, 1],
     "research_time": 1.0,
     "price":
     {
@@ -41,13 +41,13 @@
     },
     {
         "modifier_type": "military_research_points",
-        "value_behavior": "scalar",
-        "value": 9.0
+        "value_behavior": "additive",
+        "value": 25.0
     },
     {
         "modifier_type": "civilian_research_points",
-        "value_behavior": "scalar",
-        "value": 9.0
+        "value_behavior": "additive",
+        "value": 25.0
     },
     {
         "modifier_type": "max_health_points",
@@ -165,9 +165,9 @@
         "value": 100.0
     }
     ],
-    "name": "advent_max_supply_0_research_subject_name",
-    "name_uppercase": "advent_max_supply_0_research_subject_name_uppercase",
-    "description": "advent_max_supply_0_research_subject_description",
-    "hud_icon": "advent_max_supply_0_research_subject_hud_icon",
-    "tooltip_picture": "advent_max_supply_0_research_subject_tooltip_picture"
+    "name": "vasari_max_supply_0_research_subject_name",
+    "name_uppercase": "vasari_max_supply_0_research_subject_name_uppercase",
+    "description": "vasari_max_supply_0_research_subject_description",
+    "hud_icon": "vasari_max_supply_0_research_subject_hud_icon",
+    "tooltip_picture": "vasari_max_supply_0_research_subject_tooltip_picture"
 }

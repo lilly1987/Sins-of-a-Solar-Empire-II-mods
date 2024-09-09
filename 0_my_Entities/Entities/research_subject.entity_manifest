@@ -1,13 +1,13 @@
 {
     "ids": [        
-        "_advent_buff",
-        "_trader_buff",
-        "_vasari_buff",
-        "_advent_planet",
-        "_trader_planet",
-        "_vasari_planet",
-        "_advent_ship",
-        "_trader_ship",
-        "_vasari_ship"
+        "_buff_advent",
+        "_buff_trader",
+        "_buff_vasari",
+        "_planet_advent",
+        "_planet_trader",
+        "_planet_vasari",
+        "_ship_advent",
+        "_ship_trader",
+        "_ship_vasari"
     ]
 }

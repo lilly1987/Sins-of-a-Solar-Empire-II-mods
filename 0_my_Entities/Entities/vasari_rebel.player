@@ -785,8 +785,8 @@
             }
         },
         "research_subjects": [
-            "_vasari_ship",
-            "_vasari_planet",
+            "_ship_vasari",
+            "_planet_vasari",
             "vasari_all_for_one",
             "vasari_antimatter_0",
             "vasari_antimatter_1",
