@@ -22,9 +22,6 @@
 ,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.4, 0.4]},"count": [24,24]}
 ,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.5, 0.5]},"count": [30,30]}
 ,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.6, 0.6]},"count": [36,36]}
-,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.7, 0.7]},"count": [42,42]}
-,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.8, 0.8]},"count": [48,48]}
-,{"planet": {"filling_name": "_my_random_planet","solar_system_radius_range": [0.9, 0.9]},"count": [54,54]}
         ],
         
         "planet_phase_lane_max_distance_radius_scalar": 1.0,
