@@ -155,6 +155,26 @@
         "value": 9.0
     }
     ],
+    "buff_providers": [
+    {
+        "scope": "all_owned_units",
+        "all_owned_units_target_filter":
+        {
+            "unit_types": [
+                "capital_ship",
+                "corvette",
+                "cruiser",
+                "frigate",
+                "starbase",
+                "structure",
+                "titan"
+            ],
+            "ownerships": [
+                "self"]
+        },
+        "action_data_source": "_buff",
+        "buff": "_buff"
+    }],
     "name": "advent_max_supply_0_research_subject_name",
     "name_uppercase": "advent_max_supply_0_research_subject_name_uppercase",
     "description": "advent_max_supply_0_research_subject_description",

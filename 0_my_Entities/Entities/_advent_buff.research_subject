@@ -1,0 +1,61 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 0,
+    "field": "military_ascension",
+    "field_coord": [0, 0],
+    "research_time": 1.0,
+    "price":
+    {
+        "credits": 1000000.0,
+        "metal": 1000000.0,
+        "crystal": 1000000.0
+    },
+    "exotic_price": [
+    {
+        "exotic_type": "ultimate",
+        "count": 1000
+    },
+    {
+        "exotic_type": "defense",
+        "count": 1000
+    },
+    {
+        "exotic_type": "utility",
+        "count": 1000
+    },
+    {
+        "exotic_type": "economic",
+        "count": 1000
+    },
+    {
+        "exotic_type": "offense",
+        "count": 1000
+    }
+    ],
+    "buff_providers": [
+    {
+        "scope": "all_owned_units",
+        "all_owned_units_target_filter":
+        {
+            "unit_types": [
+                "capital_ship",
+                "corvette",
+                "cruiser",
+                "frigate",
+                "starbase",
+                "structure",
+                "titan"
+            ],
+            "ownerships": [
+                "self"]
+        },
+        "action_data_source": "_buff",
+        "buff": "_buff"
+    }],
+    "name": "vasari_max_supply_0_research_subject_name",
+    "name_uppercase": "vasari_max_supply_0_research_subject_name_uppercase",
+    "description": "vasari_max_supply_0_research_subject_description",
+    "hud_icon": "vasari_max_supply_0_research_subject_hud_icon",
+    "tooltip_picture": "vasari_max_supply_0_research_subject_tooltip_picture"
+}

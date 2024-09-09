@@ -157,12 +157,12 @@
     {
         "modifier_type": "max_military_structure_slots",
         "value_behavior": "additive",
-        "value": 50.0
+        "value": 100.0
     },
     {
         "modifier_type": "max_civilian_structure_slots",
         "value_behavior": "additive",
-        "value": 50.0
+        "value": 100.0
     }
     ],
     "name": "advent_max_supply_0_research_subject_name",

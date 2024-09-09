@@ -1,5 +1,8 @@
 {
     "ids": [        
+        "_advent_buff",
+        "_trader_buff",
+        "_vasari_buff",
         "_advent_planet",
         "_trader_planet",
         "_vasari_planet",
