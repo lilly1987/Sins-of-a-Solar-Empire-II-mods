@@ -2396,10 +2396,12 @@
         }]
     },
     "wormhole_research": [
-        ["vasari_unlock_wormhole_travel"]
+        ["vasari_unlock_wormhole_travel"],
+        ["_ship_vasari"]
     ],
     "hyperspace_between_stars_research": [
-        ["vasari_unlock_hyperspace_between_stars"]
+        ["vasari_unlock_hyperspace_between_stars"],
+        ["_ship_vasari"]
     ],
     "buildable_exotics": [
     {
@@ -2734,6 +2736,12 @@
             "max_supply": 2400,
             "prerequisites": [
                 ["vasari_max_supply_5"]
+            ]
+        },
+        {
+            "max_supply": 4800,
+            "prerequisites": [
+                ["_planet_vasari"]
             ]
         }]
     },

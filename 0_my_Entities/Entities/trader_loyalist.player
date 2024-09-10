@@ -2867,10 +2867,12 @@
         ["trader_find_npc_explore"]
     ],
     "wormhole_research": [
-        ["trader_wormhole_travel"]
+        ["trader_wormhole_travel"],
+        ["_ship_trader"]
     ],
     "hyperspace_between_stars_research": [
-        ["trader_unlock_hyperspace_between_stars"]
+        ["trader_unlock_hyperspace_between_stars"],
+        ["_ship_trader"]
     ],
     "buildable_exotics": [
     {
@@ -3055,6 +3057,12 @@
             "max_supply": 2000,
             "prerequisites": [
                 ["trader_max_supply_4"]
+            ]
+        },
+        {
+            "max_supply": 4000,
+            "prerequisites": [
+                ["_planet_trader"]
             ]
         }]
     },

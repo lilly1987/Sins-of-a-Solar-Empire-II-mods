@@ -5,7 +5,6 @@
             "name": "_my_random_planet",
             "filling": {
                 "editor_color": "ffff69b4",
-                "is_primary_fixture_player_home_planet": true,
                 "primary_random_fixture_filling_name": "_my_random_planet"
             }
         }
@@ -58,30 +57,7 @@
                         "ignore_orbit_overlap_checks": true,                        
                         "chance_of_retrograde_orbit": 0.50,
                         "orbit_speed_scalar": 2.0,
-                        "planet_offset": [100.0, 100.0],
-                        "counts": [
-                            {
-                                "count": 3,
-                                "probability": 1.0
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
-        ,{
-            "name": "moons3",
-            "filling": {
-                "moons": [
-                    {
-                        "filling_name": "_my_random_planet",
-                        "orbit_parent": true,
-                        "sync_orbit_to_parent": false,
-                        "use_parent_ownership": true,
-                        "ignore_orbit_overlap_checks": true,                        
-                        "chance_of_retrograde_orbit": 0.50,
-                        "orbit_speed_scalar": 2.0,
-                        "planet_offset": [100.0, 100.0],
+                        "planet_offset": [75.0, 75.0],
                         "counts": [
                             {
                                 "count": 6,

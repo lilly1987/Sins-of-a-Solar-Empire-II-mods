@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "skybox": "skybox_random",
+    "player_home_planet": {
+        "ignore_orbit_overlap_checks": true,
+        "filling_name": "player_home_planet",
+        "solar_system_radius_range": [1.0, 1.0],
+        "orbit_speed_scalar": 1.0,
+        "chance_of_retrograde_orbit": 0.0,
+        "chance_of_first_planet_bonus": 1.0,
+        "chance_of_second_planet_bonus": 1.0,
+        "chance_of_loot": 1.0,
+        "moon_filling_name": "random_10_player_home_planet_moons"
+    },
+    "solar_systems": [
+    {
+        "radius": 1000.0,
+        "star": {
+            "filling_name": "random_star"
+        },
+        "planet_ranges": [
+ {"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 0.0,"solar_system_radius_range": [0.1, 0.1]},"count": [6 ,6 ]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 1.0,"solar_system_radius_range": [0.2, 0.2]},"count": [12,12]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 0.0,"solar_system_radius_range": [0.3, 0.3]},"count": [18,18]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 1.0,"solar_system_radius_range": [0.4, 0.4]},"count": [24,24]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 0.0,"solar_system_radius_range": [0.5, 0.5]},"count": [30,30]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 1.0,"solar_system_radius_range": [0.6, 0.6]},"count": [36,36]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 0.0,"solar_system_radius_range": [0.7, 0.7]},"count": [42,42]}
+,{"planet": {"filling_name": "_my_random_planet","ignore_orbit_overlap_checks": true,"orbit_speed_scalar": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"chance_of_retrograde_orbit": 1.0,"solar_system_radius_range": [0.8, 0.8]},"count": [48,48]}
+        
+        ],
+        
+        "planet_phase_lane_max_distance_radius_scalar": 1.0,
+        "planet_phase_lane_chance": 1.0,
+        "max_player_count": 10,
+        "npcs": [
+        {
+            "count": 10,
+            "npc_filling_type": "enemy_faction",
+            "planet":
+            {
+                "filling_name": "_my_random_planet",
+                "ignore_orbit_overlap_checks": true,
+                "orbit_speed_scalar": 2.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,
+                "chance_of_retrograde_orbit": 0.50,
+                "solar_system_radius_range": [0.0, 0.8]
+            }
+        },
+        {
+            "count": 10,
+            "npc_filling_type": "friendly_faction",
+            "planet":
+            {
+                "filling_name": "_my_random_planet",
+                "ignore_orbit_overlap_checks": true,
+                "orbit_speed_scalar": 2.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,
+                "chance_of_retrograde_orbit": 0.50,
+                "solar_system_radius_range": [0.0, 0.8]
+            }
+        }
+        ]
+    }
+    ]
+}

@@ -2497,10 +2497,12 @@
         }]
     },
     "wormhole_research": [
-        ["advent_unlock_wormhole_travel"]
+        ["advent_unlock_wormhole_travel"],
+        ["_ship_advent"]
     ],
     "hyperspace_between_stars_research": [
-        ["advent_unlock_hyperspace_between_stars"]
+        ["advent_unlock_hyperspace_between_stars"],
+        ["_ship_advent"]
     ],
     "buildable_exotics": [
     {
@@ -2611,6 +2613,12 @@
             "max_supply": 2000,
             "prerequisites": [
                 ["advent_max_supply_4"]
+            ]
+        },
+        {
+            "max_supply": 4000,
+            "prerequisites": [
+                ["_planet_advent"]
             ]
         }]
     },
