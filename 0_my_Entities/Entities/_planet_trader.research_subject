@@ -7,37 +7,82 @@
     "research_time": 1.0,
     "price":
     {
-        "credits": 1000000.0,
-        "metal": 1000000.0,
-        "crystal": 1000000.0
+        "credits": 9999999.0,
+        "metal": 9999999.0,
+        "crystal": 9999999.0
     },
+
     "exotic_price": [
     {
         "exotic_type": "ultimate",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "defense",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "utility",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "economic",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "offense",
-        "count": 1000
+        "count": 9999999
     }
-    ],
+    ],    
+    "empire_modifiers": [
+    {
+        "value_behavior": "additive",
+        "modifier_type": "surveying_bonus_exotic_chance",
+        "value": 1.0
+    },
+    {
+        "value_behavior": "additive",
+        "modifier_type": "percentage_of_other_players_total_credit_income",
+        "value": 1.0
+    },
+    {
+        "value_behavior": "additive",
+        "modifier_type": "max_influence_points",
+        "value": 100.0
+    },
+    {
+        "value_behavior": "scalar",
+        "modifier_type": "influence_points_recharge_rate",
+        "value": 1.0
+    }],
+    "npc_modifiers": [
+    {
+        "modifier_type": "buy_metal_credits_cost",
+        "value_behavior": "scalar",
+        "value": -0.5
+    },
+    {
+        "modifier_type": "buy_crystal_credits_cost",
+        "value_behavior": "scalar",
+        "value": -0.5
+    }],
+    "unit_factory_modifiers": [
+    {
+        "modifier_type": "build_time",
+        "value_behavior": "scalar",
+        "value": -1.0
+    }],
+    "exotic_factory_modifiers": [
+    {
+        "modifier_type": "build_time",
+        "value_behavior": "scalar",
+        "value": -1.0
+    }],
     "planet_modifiers": [ 
     {
         "modifier_type": "bombing_damage_taken",
         "value_behavior": "scalar",
-        "value": -1.0
+        "value": -0.750
     },
     {
         "modifier_type": "military_research_points",
@@ -62,57 +107,62 @@
     {
         "modifier_type": "defense_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "defense_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -1.0
     },
     {
         "modifier_type": "surveying_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "surveying_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -1.0
     },
     {
         "modifier_type": "research_track_build_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "research_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -1.0
+    },
+    {
+        "modifier_type": "any_development_track_build_price",
+        "value_behavior": "scalar",
+        "value": -0.5
     },
     {
         "modifier_type": "any_development_track_build_time",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -1.0
     },
     {
         "modifier_type": "planet_component_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "structure_build_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "factory_unit_build_price",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -0.5
     },
     {
         "modifier_type": "structure_build_time",
         "value_behavior": "scalar",
-        "value": -0.9
+        "value": -1.0
     },
     {
         "modifier_type": "commerce_track_credit_income_rate",
@@ -140,14 +190,9 @@
         "value": 9.0
     },
     {
-        "modifier_type": "mining_track_crystal_income_rate",
-        "value_behavior": "scalar",
-        "value": 9.0
-    },
-    {
         "modifier_type": "culture_rate",
         "value_behavior": "scalar",
-        "value": 9.0
+        "value": 1.0
     },
     {
         "modifier_type": "culture_resistance_rate",

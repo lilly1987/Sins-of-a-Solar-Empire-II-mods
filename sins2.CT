@@ -206,7 +206,7 @@ sins2.exe+55176F: 0F 86 F2 02 00 00        - jbe sins2.exe+551A67
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -226,7 +226,7 @@ sins2.exe+55176F: 0F 86 F2 02 00 00        - jbe sins2.exe+551A67
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -246,7 +246,7 @@ sins2.exe+55176F: 0F 86 F2 02 00 00        - jbe sins2.exe+551A67
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -266,7 +266,7 @@ sins2.exe+55176F: 0F 86 F2 02 00 00        - jbe sins2.exe+551A67
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -286,7 +286,7 @@ sins2.exe+55176F: 0F 86 F2 02 00 00        - jbe sins2.exe+551A67
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -1567,7 +1567,7 @@ sins2.exe+498723: F3 0F 11 74 24 20           - movss [rsp+20],xmm6
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -1587,7 +1587,7 @@ sins2.exe+498723: F3 0F 11 74 24 20           - movss [rsp+20],xmm6
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>
@@ -1607,7 +1607,7 @@ sins2.exe+498723: F3 0F 11 74 24 20           - movss [rsp+20],xmm6
               <Keys>
                 <Key>33</Key>
               </Keys>
-              <Value>1000000</Value>
+              <Value>9999999</Value>
               <ID>0</ID>
             </Hotkey>
           </Hotkeys>

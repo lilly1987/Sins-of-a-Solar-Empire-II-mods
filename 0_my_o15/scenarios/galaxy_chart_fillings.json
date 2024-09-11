@@ -1,0 +1,156 @@
+{
+    "version": 1,
+    "node_fillings": [
+        {
+            "name": "_my_random_planet",
+            "filling": {
+                "editor_color": "ffff69b4",
+                "is_primary_fixture_player_home_planet": true,
+                "primary_random_fixture_filling_name": "_my_random_planet"
+            }
+        }
+    ],
+    "fixture_fillings": [
+{"name": "_my_asteroid_planet","filling": {"entity_definition": "_my_asteroid_planet"}},
+{"name": "_my_crystalline_planet","filling": {"entity_definition": "_my_crystalline_planet"}},
+{"name": "_my_desert_planet","filling": {"entity_definition": "_my_desert_planet"}},
+{"name": "_my_ferrous_planet","filling": {"entity_definition": "_my_ferrous_planet"}},
+{"name": "_my_gas_giant_planet","filling": {"entity_definition": "_my_gas_giant_planet"}},
+{"name": "_my_ice_planet","filling": {"entity_definition": "_my_ice_planet"}},
+{"name": "_my_moon_planet","filling": {"entity_definition": "_my_moon_planet"}},
+{"name": "_my_oceanic_planet","filling": {"entity_definition": "_my_oceanic_planet"}},
+{"name": "_my_pirate_base_planet","filling": {"entity_definition": "_my_pirate_base_planet"}},
+{"name": "_my_swamp_planet","filling": {"entity_definition": "_my_swamp_planet"}},
+{"name": "_my_terran_planet","filling": {"entity_definition": "_my_terran_planet"}},
+{"name": "_my_volcanic_planet","filling": {"entity_definition": "_my_volcanic_planet"}}
+    ],
+    "random_fixture_fillings": [
+        {
+            "name": "_my_random_planet",
+            "filling": {
+                "items": [
+                    {"name": "_my_asteroid_planet"}
+                   ,{"name": "_my_crystalline_planet"}
+                   ,{"name": "_my_desert_planet"}
+                   ,{"name": "_my_ferrous_planet"}
+                   ,{"name": "_my_gas_giant_planet"}
+                   ,{"name": "_my_ice_planet"}
+                   ,{"name": "_my_moon_planet"}
+                   ,{"name": "_my_oceanic_planet"}
+                   ,{"name": "_my_pirate_base_planet"}
+                   ,{"name": "_my_swamp_planet"}
+                   ,{"name": "_my_terran_planet"}
+                   ,{"name": "_my_volcanic_planet"}
+                ]
+            }
+        }
+    ],
+    "moon_fillings": [
+        {
+            "name": "moons0",
+            "filling": {
+                "moons": [
+                    {
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": true,
+                        "sync_orbit_to_parent": false,
+                        "use_parent_ownership": true,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "chance_of_retrograde_orbit": 0.50,
+                        "orbit_speed_scalar": 2.0,
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 0,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+        ,
+        {
+            "name": "moons1",
+            "filling": {
+                "moons": [
+                    {
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": true,
+                        "sync_orbit_to_parent": false,
+                        "use_parent_ownership": true,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "chance_of_retrograde_orbit": 0.50,
+                        "orbit_speed_scalar": 2.0,
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 3,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+        ,{
+            "name": "moons3",
+            "filling": {
+                "moons": [
+                    {
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": true,
+                        "sync_orbit_to_parent": false,
+                        "use_parent_ownership": true,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "chance_of_retrograde_orbit": 0.50,
+                        "orbit_speed_scalar": 2.0,
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 6,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+        ,{
+            "name": "moons2",
+            "filling": {
+                "moons": [
+                    {
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": true,
+                        "sync_orbit_to_parent": false,
+                        "use_parent_ownership": true,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "planet_offset": [100.0, 100.0],
+                        "counts": [
+                            {
+                                "count": 6,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                    ,{
+                        "filling_name": "_my_random_planet",
+                        "orbit_parent": true,
+                        "sync_orbit_to_parent": true,
+                        "use_parent_ownership": true,
+                        "ignore_orbit_overlap_checks": true,                        
+                        "planet_offset": [200.0, 200.0],
+                        "counts": [
+                            {
+                                "count": 12,
+                                "probability": 1.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+
+}

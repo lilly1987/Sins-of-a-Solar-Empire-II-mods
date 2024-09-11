@@ -8,30 +8,30 @@
     "build_time": 0.0,
     "price":
     {
-        "credits": 1000000.0,
-        "metal": 1000000.0,
-        "crystal": 1000000.0
+        "credits": 9999999.0,
+        "metal": 9999999.0,
+        "crystal": 9999999.0
     },
     "exotic_price": [
     {
         "exotic_type": "ultimate",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "defense",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "utility",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "economic",
-        "count": 1000
+        "count": 9999999
     },
     {
         "exotic_type": "offense",
-        "count": 1000
+        "count": 9999999
     }
     ],
     "required_unit_tags": [

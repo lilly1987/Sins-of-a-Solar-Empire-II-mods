@@ -2743,46 +2743,46 @@
     {
         "levels": [
         {
-            "max_supply": 120
+            "max_supply": 240
         },
         {
-            "max_supply": 300,
+            "max_supply": 600,
             "prerequisites": [
                 ["vasari_max_supply_0"]
             ]
         },
         {
-            "max_supply": 600,
+            "max_supply": 1200,
             "prerequisites": [
                 ["vasari_max_supply_1"]
             ]
         },
         {
-            "max_supply": 900,
+            "max_supply": 1800,
             "prerequisites": [
                 ["vasari_max_supply_2"]
             ]
         },
         {
-            "max_supply": 1500,
+            "max_supply": 3000,
             "prerequisites": [
                 ["vasari_max_supply_3"]
             ]
         },
         {
-            "max_supply": 2100,
+            "max_supply": 4200,
             "prerequisites": [
                 ["vasari_max_supply_4"]
             ]
         },
         {
-            "max_supply": 2400,
+            "max_supply": 4800,
             "prerequisites": [
                 ["vasari_max_supply_5"]
             ]
         },
         {
-            "max_supply": 4800,
+            "max_supply": 6000,
             "prerequisites": [
                 ["_planet_vasari"]
             ]
