@@ -1,9 +1,9 @@
 {
     "version": 1,
-    "name": ":0_my_o10",
+    "name": ":0_my_o14",
     "description": ":An empty scenario",
     "desired_player_slots_configuration": {
-        "player_count": 10,
+        "player_count": 9,
         "team_count": 0
     }
 }

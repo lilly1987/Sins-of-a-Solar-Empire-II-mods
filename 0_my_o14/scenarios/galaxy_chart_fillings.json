@@ -47,30 +47,6 @@
     ],
     "moon_fillings": [
         {
-            "name": "moons0",
-            "filling": {
-                "moons": [
-                    {
-                        "filling_name": "_my_random_planet",
-                        "orbit_parent": true,
-                        "sync_orbit_to_parent": false,
-                        "use_parent_ownership": true,
-                        "ignore_orbit_overlap_checks": true,                        
-                        "chance_of_retrograde_orbit": 0.50,
-                        "orbit_speed_scalar": 2.0,
-                        "planet_offset": [100.0, 100.0],
-                        "counts": [
-                            {
-                                "count": 0,
-                                "probability": 1.0
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
-        ,
-        {
             "name": "moons1",
             "filling": {
                 "moons": [
