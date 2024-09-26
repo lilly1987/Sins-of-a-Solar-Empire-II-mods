@@ -16,7 +16,7 @@
 "solar_systems": [
     {
         "radius": 1.0,
-        "planet_phase_lane_max_distance_radius_scalar": 200,"planet_phase_lane_chance": 0.5,
+        "planet_phase_lane_max_distance_radius_scalar": 200,"planet_phase_lane_chance": 0.66,
         "max_player_count": 10,"artifact_count": 168,
         "star": {"filling_name": "random_star"},
         "npcs": [

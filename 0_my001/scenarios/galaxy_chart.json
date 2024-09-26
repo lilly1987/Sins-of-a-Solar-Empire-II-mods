@@ -1,0 +1,165 @@
+{
+    "version": 1,
+    "skybox": "skybox_random",
+    "root_nodes": [
+{"id": 9000,"filling_name": "random_star","position": [0.0, 0.0],"orbit_speed_scalar":0.0,"chance_of_retrograde_orbit": 1.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,
+    
+    "child_nodes": [
+
+{"id": 2000,"filling_name": "_my_random_planet","position": [ 100.000000, 200.000000],"ownership":{"npc_filling_type": "militia"         },"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 2001,"filling_name": "_my_random_planet","position": [   0.000000, 100.000000],"ownership":{"npc_filling_type": "friendly_faction"},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 2002,"filling_name": "_my_random_planet","position": [-100.000000, 200.000000],"ownership":{"npc_filling_type": "guardian"        },"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 2003,"filling_name": "_my_random_planet","position": [-100.000000,-200.000000],"ownership":{"npc_filling_type": "militia"         },"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 2004,"filling_name": "_my_random_planet","position": [   0.000000,-100.000000],"ownership":{"npc_filling_type": "friendly_faction"},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 2005,"filling_name": "_my_random_planet","position": [ 100.000000,-200.000000],"ownership":{"npc_filling_type": "guardian"        },"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3300,"filling_name": "_my_random_planet","position": [ 100.000000, 0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3400,"filling_name": "_my_random_planet","position": [-100.000000, 0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3000,"filling_name": "_my_random_planet","position": [-200.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3010,"filling_name": "_my_random_planet","position": [-300.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3020,"filling_name": "_my_random_planet","position": [-400.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3030,"filling_name": "_my_random_planet","position": [-500.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1000,"filling_name": "_my_random_planet","position": [-600.000000, 200.000000],"ownership": {"player_index": 0},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3001,"filling_name": "_my_random_planet","position": [-300.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3011,"filling_name": "_my_random_planet","position": [-400.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3021,"filling_name": "_my_random_planet","position": [-500.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3031,"filling_name": "_my_random_planet","position": [-600.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1001,"filling_name": "_my_random_planet","position": [-700.000000, 100.000000],"ownership": {"player_index": 1},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3002,"filling_name": "_my_random_planet","position": [-323.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3012,"filling_name": "_my_random_planet","position": [-423.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3022,"filling_name": "_my_random_planet","position": [-523.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3032,"filling_name": "_my_random_planet","position": [-623.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1002,"filling_name": "_my_random_planet","position": [-723.606797,  -0.000000],"ownership": {"player_index": 2},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3003,"filling_name": "_my_random_planet","position": [-300.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3013,"filling_name": "_my_random_planet","position": [-400.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3023,"filling_name": "_my_random_planet","position": [-500.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3033,"filling_name": "_my_random_planet","position": [-600.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1003,"filling_name": "_my_random_planet","position": [-700.000000,-100.000000],"ownership": {"player_index": 3},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3004,"filling_name": "_my_random_planet","position": [-200.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3014,"filling_name": "_my_random_planet","position": [-300.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3024,"filling_name": "_my_random_planet","position": [-400.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3034,"filling_name": "_my_random_planet","position": [-500.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1004,"filling_name": "_my_random_planet","position": [-600.000000,-200.000000],"ownership": {"player_index": 4},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3100,"filling_name": "_my_random_planet","position": [200.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3130,"filling_name": "_my_random_planet","position": [500.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3110,"filling_name": "_my_random_planet","position": [300.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3120,"filling_name": "_my_random_planet","position": [400.000000, 200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1005,"filling_name": "_my_random_planet","position": [600.000000, 200.000000],"ownership": {"player_index": 5},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3101,"filling_name": "_my_random_planet","position": [300.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3111,"filling_name": "_my_random_planet","position": [400.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3121,"filling_name": "_my_random_planet","position": [500.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3131,"filling_name": "_my_random_planet","position": [600.000000, 100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1006,"filling_name": "_my_random_planet","position": [700.000000, 100.000000],"ownership": {"player_index": 6},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+        
+{"id": 3102,"filling_name": "_my_random_planet","position": [323.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3112,"filling_name": "_my_random_planet","position": [423.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3122,"filling_name": "_my_random_planet","position": [523.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3132,"filling_name": "_my_random_planet","position": [623.606797,  -0.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1007,"filling_name": "_my_random_planet","position": [723.606797,  -0.000000],"ownership": {"player_index": 7},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+        
+{"id": 3103,"filling_name": "_my_random_planet","position": [300.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3113,"filling_name": "_my_random_planet","position": [400.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3123,"filling_name": "_my_random_planet","position": [500.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3133,"filling_name": "_my_random_planet","position": [600.000000,-100.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1008,"filling_name": "_my_random_planet","position": [700.000000,-100.000000],"ownership": {"player_index": 8},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+
+{"id": 3104,"filling_name": "_my_random_planet","position": [200.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3114,"filling_name": "_my_random_planet","position": [300.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3124,"filling_name": "_my_random_planet","position": [400.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 3134,"filling_name": "_my_random_planet","position": [500.000000,-200.000000],"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0},
+{"id": 1009,"filling_name": "_my_random_planet","position": [600.000000,-200.000000],"ownership": {"player_index": 9},"orbit_speed_scalar":0.0,"chance_of_first_planet_bonus": 1.0,"chance_of_second_planet_bonus": 1.0,"chance_of_loot": 1.0,"loot_level": 2,"has_artifact": true,"sync_orbit_to_parent": true,"ignore_orbit_overlap_checks": true,"inherit_original_parent_orbit_direction": true,"original_parent_id": 0}
+
+
+
+
+
+
+
+    ]
+    }
+    ],
+    "phase_lanes": [    
+    
+{"id": 7300,"node_a": 9000,"node_b": 3300},
+
+{"id": 7100,"node_a": 3300,"node_b": 3100},
+{"id": 7101,"node_a": 3300,"node_b": 3101},
+{"id": 7102,"node_a": 3300,"node_b": 3102},
+{"id": 7103,"node_a": 3300,"node_b": 3103},
+{"id": 7104,"node_a": 3300,"node_b": 3104},
+
+{"id": 7110,"node_a": 3110,"node_b": 3100},
+{"id": 7111,"node_a": 3111,"node_b": 3101},
+{"id": 7112,"node_a": 3112,"node_b": 3102},
+{"id": 7113,"node_a": 3113,"node_b": 3103},
+{"id": 7114,"node_a": 3114,"node_b": 3104},
+
+{"id": 7120,"node_a": 3110,"node_b": 3120},
+{"id": 7121,"node_a": 3111,"node_b": 3121},
+{"id": 7122,"node_a": 3112,"node_b": 3122},
+{"id": 7123,"node_a": 3113,"node_b": 3123},
+{"id": 7124,"node_a": 3114,"node_b": 3124},
+
+{"id": 7130,"node_a": 3130,"node_b": 3120},
+{"id": 7131,"node_a": 3131,"node_b": 3121},
+{"id": 7132,"node_a": 3132,"node_b": 3122},
+{"id": 7133,"node_a": 3133,"node_b": 3123},
+{"id": 7134,"node_a": 3134,"node_b": 3124},
+
+{"id": 7140,"node_a": 3130,"node_b": 1005},
+{"id": 7141,"node_a": 3131,"node_b": 1006},
+{"id": 7142,"node_a": 3132,"node_b": 1007},
+{"id": 7143,"node_a": 3133,"node_b": 1008},
+{"id": 7144,"node_a": 3134,"node_b": 1009},
+
+    
+{"id": 7400,"node_a": 9000,"node_b": 3400},
+
+{"id": 7000,"node_a": 3400,"node_b": 3000},
+{"id": 7001,"node_a": 3400,"node_b": 3001},
+{"id": 7002,"node_a": 3400,"node_b": 3002},
+{"id": 7003,"node_a": 3400,"node_b": 3003},
+{"id": 7004,"node_a": 3400,"node_b": 3004},
+
+{"id": 7010,"node_a": 3010,"node_b": 3000},
+{"id": 7011,"node_a": 3011,"node_b": 3001},
+{"id": 7012,"node_a": 3012,"node_b": 3002},
+{"id": 7013,"node_a": 3013,"node_b": 3003},
+{"id": 7014,"node_a": 3014,"node_b": 3004},
+
+{"id": 7020,"node_a": 3010,"node_b": 3020},
+{"id": 7021,"node_a": 3011,"node_b": 3021},
+{"id": 7022,"node_a": 3012,"node_b": 3022},
+{"id": 7023,"node_a": 3013,"node_b": 3023},
+{"id": 7024,"node_a": 3014,"node_b": 3024},
+
+{"id": 7030,"node_a": 3030,"node_b": 3020},
+{"id": 7031,"node_a": 3031,"node_b": 3021},
+{"id": 7032,"node_a": 3032,"node_b": 3022},
+{"id": 7033,"node_a": 3033,"node_b": 3023},
+{"id": 7034,"node_a": 3034,"node_b": 3024},
+
+{"id": 7040,"node_a": 3030,"node_b": 1000},
+{"id": 7041,"node_a": 3031,"node_b": 1001},
+{"id": 7042,"node_a": 3032,"node_b": 1002},
+{"id": 7043,"node_a": 3033,"node_b": 1003},
+{"id": 7044,"node_a": 3034,"node_b": 1004},
+    
+    
+    
+{"id": 8000,"node_a": 2001,"node_b": 2000},
+{"id": 8001,"node_a": 9000,"node_b": 2001},
+{"id": 8002,"node_a": 2001,"node_b": 2002},
+{"id": 8003,"node_a": 2004,"node_b": 2003},
+{"id": 8004,"node_a": 9000,"node_b": 2004},
+{"id": 8005,"node_a": 2004,"node_b": 2005}
+
+    ]
+    }
